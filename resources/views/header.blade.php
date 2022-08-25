@@ -14,11 +14,11 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Product</a>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item ">Infrastructure & Neutral Internet Service</a>
-                            <a href="#" class="dropdown-item">I PTVSolution</a>
-                            <a href="#" class="dropdown-item">Ethernet Service</a>
-                            <a href="#" class="dropdown-item">IBCS</a>
-                            <a href="#" class="dropdown-item">Manage Service</a>
+                            <a href="#" class="nav-dropdown-item dropdown-item ">Infrastructure & Neutral Internet Service</a>
+                            <a href="#" class="nav-dropdown-item dropdown-item">I PTVSolution</a>
+                            <a href="#" class="nav-dropdown-item dropdown-item">Ethernet Service</a>
+                            <a href="#" class="nav-dropdown-item dropdown-item">IBCS</a>
+                            <a href="#" class="nav-dropdown-item dropdown-item">Manage Service</a>
                         </div>
                     </div>
                     <a href="#" class="nav-item nav-link text-white">About Us</a>

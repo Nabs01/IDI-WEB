@@ -120,3 +120,8 @@ body {
 	color: #1799D5;
 	text-decoration: none;
 }
+
+.nav-dropdown-item:hover{
+    background: linear-gradient(to right, #1799D5,#194A9D);
+    color: #ffffff;
+}
