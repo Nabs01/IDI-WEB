@@ -5,7 +5,8 @@
 
 @section('content') 
 
-
+@include('section-header')
+@include('our-solutions')
     
 @section('custom_js')
 <script type="text/javascript">

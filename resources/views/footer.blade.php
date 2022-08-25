@@ -1,4 +1,4 @@
-<footer class="footer-10 m-auto">
+<!-- <footer class="footer-10 m-auto">
 			<div class="container">
 				<div class="row mb-5 pb-3 no-gutters">
 					<div class="col-md-4 mb-md-0 mb-4 d-flex">
@@ -95,4 +95,4 @@
           </div>
         </div>
 			</div>
-		</footer>
+		</footer> -->
