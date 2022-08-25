@@ -1,98 +1,81 @@
-<!-- <footer class="footer-10 m-auto">
-			<div class="container">
-				<div class="row mb-5 pb-3 no-gutters">
-					<div class="col-md-4 mb-md-0 mb-4 d-flex">
-						<div class="con con-1 w-100 py-5">
-							<div class="con-info w-100 text-center">
-								<div class="icon d-flex align-items-center justify-content-center">
-									<span class="ion-ios-call"></span>
-								</div>
-								<div class="text">
-									<span>(+00) 1234 5678</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 mb-md-0 mb-4 d-flex">
-						<div class="con con-2 w-100 py-5">
-							<div class="con-info w-100 text-center">
-								<div class="icon d-flex align-items-center justify-content-center">
-									<span class="ion-ios-mail"></span>
-								</div>
-								<div class="text">
-									<span>info@email.com</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 mb-md-0 mb-4 d-flex">
-						<div class="con con-3 w-100 py-5">
-							<div class="con-info w-100 text-center">
-								<div class="icon d-flex align-items-center justify-content-center">
-									<span class="ion-ios-pin"></span>
-								</div>
-								<div class="text">
-									<span>203 Fake St. Mountain View, San Francisco, California, USA</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-7">
-						<div class="row">
-							<div class="col-md-4 mb-md-0 mb-4">
-								<h2 class="footer-heading">About</h2>
-								<ul class="list-unstyled">
-		              <li><a href="#" class="d-block">Out story</a></li>
-		              <li><a href="#" class="d-block">Awards</a></li>
-		              <li><a href="#" class="d-block">Our Team</a></li>
-		              <li><a href="#" class="d-block">Career</a></li>
-		            </ul>
-							</div>
-							<div class="col-md-4 mb-md-0 mb-4">
-								<h2 class="footer-heading">Company</h2>
-								<ul class="list-unstyled">
-		              <li><a href="#" class="d-block">Our services</a></li>
-		              <li><a href="#" class="d-block">Clients</a></li>
-		              <li><a href="#" class="d-block">Contact</a></li>
-		              <li><a href="#" class="d-block">Press</a></li>
-		            </ul>
-							</div>
-							<div class="col-md-4 mb-md-0 mb-4">
-								<h2 class="footer-heading">Resources</h2>
-								<ul class="list-unstyled">
-		              <li><a href="#" class="d-block">Blog</a></li>
-		              <li><a href="#" class="d-block">Newsletter</a></li>
-		              <li><a href="#" class="d-block">Privacy Policy</a></li>
-		            </ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-5 mb-md-0 mb-4">
-						<h2 class="footer-heading">Subscribe</h2>
-						<form action="#" class="subscribe-form">
-              <div class="form-group d-flex">
-                <input type="text" class="form-control rounded-left" placeholder="Enter email address">
-                <button type="submit" class="form-control submit rounded-right">Subscribe</button>
-              </div>
-              <span class="subheading">Get digital marketing updates in your mailbox</span>
-            </form>
-					</div>
-				</div>
-				<div class="row mt-5 pt-4 border-top">
-          <div class="col-md-6 col-lg-8 mb-md-0 mb-4">
-            <p class="copyright mb-0">
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. IDI</a>
- </p>
-          </div>
-          <div class="col-md-6 col-lg-4 text-md-right">
-          	<ul class="ftco-footer-social p-0">
-              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"></span></a></li>
-            </ul>
-          </div>
-        </div>
+<div class="container">
+  <footer class="row pt-5 pb-5">
+	<div class="col-md-5">
+		<div class="col mb-3">
+			<div class="row">
+				<a  onclick="window.location='{{ route('home')}}'" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+					<img class="logo-image"  src="{{ asset('/images/IDI_LOGO_footer-0-1.png')}}" height="25" alt="IDI Logo">
+					<span class="text-muted">&nbsp; Pt. Infrstruktur Digital Indonesia</span>
+				</a>
 			</div>
-		</footer> -->
+			<div class="row">
+				<div class="col-sm-1">
+					<i class="icofont-ui-call icofont-1x"></i>
+				</div>
+				<div class="col">
+					<span> (+62)21 5086 8858</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1">
+					<i class="icofont-brand-whatsapp icofont-1x"></i> 
+				</div>
+				<div class="col">
+					<span>08xxxxxxxxxx</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1">
+					<i class="icofont-email icofont-1x"></i> 
+				</div>
+				<div class="col">
+					<span>sales@infrastruktur-digital.co.id</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1">
+					<i class="icofont-building-alt icofont-1x"></i> 
+				</div>
+				<div class="col">
+					<span>Kawasan Rasuna Epicentrum, JL. HR. Rasuna Said, Rt.001/Rw.003, Karet Kuningan, Setiabudi, Central Jakarta City, Jakarta 10220</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col">	
+		<h5>Main Menu</h5>
+		<ul class="nav flex-column">
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="col mb-3">
+		<h5>Product</h5>
+		<ul class="nav flex-column">
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Infrastructure & Neutral Internet Service</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">I PTVSolution</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ethernet Service</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">IBCS</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Manage Service</a></li>
+		</ul>
+	</div>
+
+	<div class="col mb-3" hidden>
+		<h5>Section</h5>
+		<ul class="nav flex-column">
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+		</ul>
+	</div>
+	
+	<div class="border-top">
+		<p class="text-muted mt-3">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. Pt. Infrstruktur Digital Indonesia</p>
+	</div>
+  </footer>
+</div>
+

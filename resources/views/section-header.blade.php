@@ -23,21 +23,31 @@
     </div> 
 </section>
  
-<section class id="trusted-by" class="container-fluid">
-    <!-- <div class="row"> -->
-        <!-- <div class="col-lg-12">
-            <h2 style="color:#3B3E66; text-align:center;"><strong>Our Client</strong></h2> -->
-            <!-- <div id="img-client" style="text-align:center;">  -->
-                <!-- <img class="img mr-4" loading="lazy" src="{{asset('img/clients/MCF.svg')}}" alt="alternative">
-                <img class="img mr-4" loading="lazy" src="{{asset('img/clients/MAF.svg')}}" alt="alternative">
-                <img class="img mr-4" loading="lazy" src="{{asset('img/clients/detik.svg')}}" alt="alternative" >
-                <img class="img mr-4" loading="lazy" src="{{asset('img/clients/MF.svg')}}" alt="alternative" >
-                <img class="img mr-4" loading="lazy" src="{{asset('img/clients/nuspala.svg')}}" alt="alternative">
-                <img class="img mr-4" loading="lazy" src="{{asset('img/clients/uipath.svg')}}" alt="alternative">
-                <img class="img mr-4" loading="lazy" src="{{asset('img/clients/quiros.svg')}}" alt="alternative">
-                <img class="img mr-4" loading="lazy" src="{{asset('img/clients/telmark.svg')}}" alt="alternative"> -->
-            <!-- </div> -->
-        <!-- </div>  -->
-    <!-- </div>  -->
+<section class id="our-clients">
+    <div class="col-lg-12 col-md-12">
+        <h2 style="color:#3B3E66; text-align:center;"><strong>Our Client</strong></h2> 
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#"><img src="https://www.markuptag.com/images/bluehost-logo.png" class="img-fluid" loading="lazy" alt="Bluehost logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#"><img src="https://www.markuptag.com/images/hostgator-logo.png" class="img-fluid" loading="lazy" alt="Hostgator logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#"><img src="https://www.markuptag.com/images/greengeeks-logo.png" class="img-fluid" loading="lazy" alt="Green Geeks logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#"><img src="https://www.markuptag.com/images/wordpress-logo.png" class="img-fluid" loading="lazy" alt="WordPress logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#"><img src="https://www.markuptag.com/images/dreamhost-logo.png" class="img-fluid" loading="lazy" alt="DreamHost logo"></a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <a href="#"><img src="https://www.markuptag.com/images/hostinger-logo.png" class="img-fluid" loading="lazy" alt="Hostinger logo"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section> 
   
