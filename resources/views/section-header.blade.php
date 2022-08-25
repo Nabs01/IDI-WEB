@@ -24,10 +24,10 @@
 </section>
  
 <section class id="trusted-by" class="container-fluid">
-    <div class="row">
-        <div class="col-lg-12 my-3">
-            <h2 style="color:#3B3E66; text-align:center;"><strong>Our Client</strong></h2>
-            <div id="img-client" class="container" style="text-align:center;">
+    <!-- <div class="row"> -->
+        <!-- <div class="col-lg-12">
+            <h2 style="color:#3B3E66; text-align:center;"><strong>Our Client</strong></h2> -->
+            <!-- <div id="img-client" style="text-align:center;">  -->
                 <!-- <img class="img mr-4" loading="lazy" src="{{asset('img/clients/MCF.svg')}}" alt="alternative">
                 <img class="img mr-4" loading="lazy" src="{{asset('img/clients/MAF.svg')}}" alt="alternative">
                 <img class="img mr-4" loading="lazy" src="{{asset('img/clients/detik.svg')}}" alt="alternative" >
@@ -36,8 +36,8 @@
                 <img class="img mr-4" loading="lazy" src="{{asset('img/clients/uipath.svg')}}" alt="alternative">
                 <img class="img mr-4" loading="lazy" src="{{asset('img/clients/quiros.svg')}}" alt="alternative">
                 <img class="img mr-4" loading="lazy" src="{{asset('img/clients/telmark.svg')}}" alt="alternative"> -->
-            </div>
-        </div> 
-    </div> 
+            <!-- </div> -->
+        <!-- </div>  -->
+    <!-- </div>  -->
 </section> 
   
