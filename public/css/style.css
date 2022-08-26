@@ -1,0 +1,131 @@
+@font-face {
+    font-family: poppins;
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: poppins;
+}
+
+/*-------------------------------------- Header ---------------------------------------  */
+
+.bg-nav {
+    background: linear-gradient(to right, #1799D5,#194A9D);
+    -webkit-box-shadow: 0 8px 6px -6px #3366b3;
+    -moz-box-shadow: 0 8px 6px -6px #3366b3;
+         box-shadow: 0 8px 6px -6px #3366b3;
+}
+
+.header {
+	padding-top: 20em;
+	padding-bottom: 2.5em;
+	background: url('../images/relaxing-woman-sitting-comfortable-sofa-lounge-chair-home 1.png') center center no-repeat;
+	background-size:100% auto;
+	text-align: center;
+	object-fit: contain;
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 1.42%, rgba(52, 106, 155, 0.5) 11.82%, rgba(255, 255, 255, 0.255) 96.45%, rgba(52, 106, 155, 0.5) 96.45%); */
+    
+}
+
+
+.header .text-container {
+	margin-bottom: 4rem;
+}
+
+.header .h1-large {
+	margin-bottom: 1.5rem;
+}
+
+.header .p-large {
+	margin-bottom: 2rem;
+}
+
+.header .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 0.75rem;
+}
+
+
+/* ----------------------------------- About Us --------------------------------------------*/
+
+#aboutUs .card{
+    border-radius: 20px;
+	float:none; 
+	position:center;
+	margin-left: auto; 
+	margin-right: auto; 
+	border-radius:10px;
+}
+
+
+
+/* ----------------------------------- Section Content ------------------------------------- */
+
+#our-clients{
+    padding-bottom: 5em !important
+}
+
+#our-solutions {
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    background: rgba(23, 153, 213, 0.55);
+}
+
+
+/* ----------------------------------- Decoration ------------------------------------------ */
+
+.text-white:hover{
+
+    animation: text-shadow 1.5s ease-in-out infinite;
+    font-size: 1em;
+    font-weight: 800;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.btn-solid-lg {
+	display: inline-block;
+	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+	border: 1px solid #194A9D;
+	border-radius: 32px;
+	background: linear-gradient(to right, #1799D5,#194A9D);
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+	border: 1px solid #1799D5;
+	background: transparent;
+	color: #1799D5; /* needs to stay here because of the color property of a tag */
+	text-decoration: none;
+}
+
+.btn-solid-sm-more {
+	display: inline-block;
+	padding: 1em;
+	border: 1px solid #194A9D;
+	border-radius: 32px;
+	background-color: #194A9D;
+	color: #ffffff;
+	font-size: 0.875em;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+	filter: drop-shadow(95% #F3F6FF);
+}
+
+.btn-solid-sm-more:hover {
+	border: 1px solid #1799D5;
+	background-color: transparent;
+	color: #1799D5;
+	text-decoration: none;
+}
+
+.nav-dropdown-item:hover{
+    background: linear-gradient(to right, #1799D5,#194A9D);
+    color: #ffffff;
+}
