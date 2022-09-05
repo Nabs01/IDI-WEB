@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="text-container">
-                    <h1 class="h1-large" style="color:#FFFFFF"> Kami Menawarkan Layanan Internet Terbaik</h1>
-                    <a class="btn-solid-lg page-scroll" href="#product">LEBIH LENGKAP</a>
+                    <h1 class="h1-large text-start" style="color:#FFFFFF"> Welcome To <br>PT. Infrastruktur Digital Indonesia</h1>
+                    <a class="btn-solid-lg page-scroll" href="#our-solutions">LEBIH LENGKAP</a>
                 </div> 
             </div>
         </div>
@@ -17,7 +17,7 @@
             <div class="container">
                 <h4 class="text-left title">Tentang Pt. Infrstruktur Digital Indonesia</h4>
                 <p class="card-subtitle mt-3 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <button class="btn-solid-sm-more mt-3 float-end"> <span>Read more </span></button>
+                <button onclick="window.location='{{ route('about')}}'" class="btn-solid-sm-more mt-3 float-end"> <span>Read more </span></button>
             </div>
         </div>
     </div> 
