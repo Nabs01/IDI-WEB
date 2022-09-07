@@ -21,6 +21,7 @@
   <!--  CSS Files -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link href="{{ asset('icofont/icofont.min.css') }}" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Main CSS File -->
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
   @yield('custom_css')
@@ -31,6 +32,10 @@
   <script src="{{ asset('js/jquery.min.js') }}"></script>
   <script src="{{ asset('js/main.js') }}"></script>
   <script src="{{ asset('js/popper.js') }}"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>$(function() {
+  AOS.init();
+});</script>
 </head>
 
 <body>

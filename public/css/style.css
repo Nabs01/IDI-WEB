@@ -19,12 +19,41 @@ body {
 .header {
 	padding-top: 20em;
 	padding-bottom: 2.5em;
-	background: url('../images/relaxing-woman-sitting-comfortable-sofa-lounge-chair-home 1.png') center center no-repeat;
+	background: url('../images/Group 75.png') center center no-repeat;
 	background-size:100% auto;
 	text-align: center;
 	object-fit: contain;
-    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 1.42%, rgba(52, 106, 155, 0.5) 11.82%, rgba(255, 255, 255, 0.255) 96.45%, rgba(52, 106, 155, 0.5) 96.45%); */
+   
     
+}
+
+.header-about-us {
+	padding-top: 20em;
+	padding-bottom: 2.5em;
+	background: url('../images/Group 80.png') center center no-repeat;
+	background-size:100% auto;
+	text-align: center;
+	object-fit: contain;
+   
+    
+}
+
+#header-about-us .text-container {
+	position: relative;
+	top : -10em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header-about-us .text-container hr{
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	width: 20%;
+	top: 10px;
+	height: 5px;
+	background-color: #ffffff;
+	opacity: 100%;
 }
 
 
@@ -46,6 +75,18 @@ body {
 }
 
 
+.header-about-us .text-container {
+	margin-bottom: 4rem;
+}
+
+.header-about-us .h1-large {
+	margin-bottom: 1.5rem;
+}
+
+.header-about-us.p-large {
+	margin-bottom: 2rem;
+}
+
 /* ----------------------------------- About Us --------------------------------------------*/
 
 #aboutUs .card{
@@ -63,6 +104,11 @@ body {
 
 #our-clients{
     padding-bottom: 5em !important
+}
+
+#visi-misi {
+	padding-top: 5em !important;
+    padding-bottom: 5em !important;
 }
 
 #our-solutions {
@@ -98,9 +144,9 @@ body {
 }
 
 .btn-solid-lg:hover {
-	border: 1px solid #1799D5;
+	border: 1px solid #ffffff;
 	background: transparent;
-	color: #1799D5; /* needs to stay here because of the color property of a tag */
+	color: #ffffff; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -128,4 +174,16 @@ body {
 .nav-dropdown-item:hover{
     background: linear-gradient(to right, #1799D5,#194A9D);
     color: #ffffff;
+}
+
+
+/*---------------------------------------------------- content styles ------------------------------------*/
+
+#visi-misi img{
+	height: 80%;
+	height: 80%;
+}
+
+#visi-misi ul li::before{
+	color :#194A9D;
 }

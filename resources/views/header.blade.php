@@ -21,7 +21,7 @@
                             <a href="#" class="nav-dropdown-item dropdown-item">Manage Service</a>
                         </div>
                     </div>
-                    <a href="#" class="nav-item nav-link text-white">About Us</a>
+                    <a onclick="window.location='{{ route('about')}}'" class="nav-item nav-link text-white">About Us</a>
                     <a href="#" class="nav-item nav-link text-white">Contact</a>
                 </div>
             </div>
