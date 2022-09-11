@@ -3,6 +3,16 @@
     src: url(../font/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: bitter-regular;
+    src: url(../font/bitter/Bitter-Regular.ttf);
+}
+
+@font-face {
+    font-family: bitter-bold;
+    src: url(../font/bitter/Bitter-Bold.ttf);
+}
+
 body {
     font-family: poppins;
 }
@@ -20,17 +30,6 @@ body {
 	padding-top: 20em;
 	padding-bottom: 2.5em;
 	background: url('../images/Group 75.png') center center no-repeat;
-	background-size:100% auto;
-	text-align: center;
-	object-fit: contain;
-   
-    
-}
-
-.header-about-us {
-	padding-top: 20em;
-	padding-bottom: 2.5em;
-	background: url('../images/Group 80.png') center center no-repeat;
 	background-size:100% auto;
 	text-align: center;
 	object-fit: contain;
@@ -85,17 +84,6 @@ body {
 
 .header-about-us.p-large {
 	margin-bottom: 2rem;
-}
-
-/* ----------------------------------- About Us --------------------------------------------*/
-
-#aboutUs .card{
-    border-radius: 20px;
-	float:none; 
-	position:center;
-	margin-left: auto; 
-	margin-right: auto; 
-	border-radius:10px;
 }
 
 
@@ -186,4 +174,231 @@ body {
 
 #visi-misi ul li::before{
 	color :#194A9D;
+}
+
+/* ======================================= Home Header ======================================= */
+
+
+
+.header-home {
+	height: 70vh;
+	min-height: 500px;
+	background-image: url('../images/Group 75.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.home-title{
+	color: white;
+	font-family: bitter-regular;
+	font-size: 40px;
+	font-weight:500;
+	padding-left: 10vh;
+}
+
+.home-head-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-header-btn{
+	margin-left: 10vh;
+	background-color: #1799D5;
+	color: white;
+}
+
+/* ----------------------------------- About Us --------------------------------------------*/
+
+#aboutUs .card{
+	float:inline-start; 
+	position:center;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: -10vh;
+	border-radius:20px;
+}
+
+/* ----------------------------------- Section Content ------------------------------------- */
+
+#our-clients{
+    padding: 10vh !important
+}
+
+#our-clients h2{
+    margin: 10vh !important;
+	text-align: center;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 40px;
+	font-weight:500;
+}
+
+#our-solutions h2{
+    margin: 5vh !important;
+	text-align: left;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 40px;
+	font-weight:500;
+}
+
+#our-solutions p{
+	text-align: center;
+	color: black;
+	font-family: bitter;
+	font-size: 20px;
+	font-weight:500;
+}
+
+#our-solutions .title-content{
+	margin: auto;
+}
+
+#our-solutions {
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    background: rgba(23, 153, 213, 0.55);
+}
+
+#our-solutions .card-img-top{
+	/* padding-top: 2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 2vw; */
+	padding: 3vw;
+}
+
+#our-solutions .card{
+	text-align: center;
+	margin: 20px;
+	border-radius: 20px;
+	width: 200px;
+}
+
+#why-us h2{
+    margin: 5vh !important;
+	text-align: left;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 40px;
+	font-weight:500;
+}
+
+.why-us-image{
+	padding: 5vw;
+}
+
+/* ======================================= About Us Header ======================================= */
+
+
+
+.header-about-us {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url('../images/Group 80.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.about-us-title{
+	color: white;
+	font-family: bitter-regular;
+	font-size: 3vw;
+	font-weight:500;
+}
+.about-us-title-content{
+	text-align: center;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 40px;
+	font-weight:500;
+}
+
+.about-us-company{
+	color: white;
+	font-family: bitter-bold;
+	font-size: 4vw;
+}
+
+.about-us-subtitle{
+	color: white;
+	font-family: bitter-regular;
+	font-size: 2vh;
+	word-spacing: 5px;
+}
+
+.about-us-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-us-container hr{
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	width: 40%;
+	top: 10px;
+	height: 0.5vh;
+	background-color: #ffffff;
+	opacity: 100%;
+}
+
+.about-us-content-title{
+	color: black;
+	font-family: bitter-bold;
+	font-size: 30px;
+	word-spacing: 5px;
+}
+
+.about-us-content-subtitle{
+	color: #808080;
+	font-family: bitter-regular;
+	font-size: 16px;
+	word-spacing: 5px;
+}
+
+.about-us-content{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.about-us-our-poeple{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10vh;
+}
+
+.about-us-our-poeple .card-poeple{
+	margin-bottom: 10vh;
+}
+
+
+/* ======================================= Product Header ======================================= */
+
+
+
+.header-product {
+	height: 50vh;
+	min-height: 500px;
+	background-image: url('../images/Group 80.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.product-title{
+	color: white;
+	font-family: bitter-regular;
+	font-size: 3vw;
+	font-weight:500;
+}
+
+.product-main-btn{
+	color: white;
+	background-color: #1799D5;
+	white-space: normal;
 }

@@ -1,14 +1,11 @@
-<header id="header" class="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="text-container">
-                    <h1 class="h1-large text-start" style="color:#FFFFFF"> Welcome To <br>PT. Infrastruktur Digital Indonesia</h1>
-                    <a class="btn-solid-lg page-scroll" href="#our-solutions">LEBIH LENGKAP</a>
-                </div> 
-            </div>
+<header id="header-home" class="header-home">
+    <div class="home-head-container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-12 text-left">
+            <h3 class="home-title">Welcome to <br> PT. INFRASTRUKTUR DIGITAL INDONESIA</h3>
+            <button type="button" class="btn home-header-btn">Lihat Lebih</button>
         </div>
-    </div>
+      </div>
 </header> 
  
 <section id="aboutUs">
@@ -16,8 +13,8 @@
         <div class="card-body">
             <div class="container">
                 <h4 class="text-left title">Tentang Pt. Infrstruktur Digital Indonesia</h4>
-                <p class="card-subtitle mt-3 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <button onclick="window.location='{{ route('about')}}'" class="btn-solid-sm-more mt-3 float-end"> <span>Read more </span></button>
+                <p class="card-subtitle mt-3 text-muted">PT Infrastruktur Digital Indonesia(IDI) adalah perusahaan yang bergerak di bidang pembangunan infrastruktur dan penyelanggaraan layanan teknologi informasi dan Komunikasi/TIK (Information Communication and Technology/ICT), Bentuk layanan TIK kami berupa pembanguann, pengoperasian dan penyenggaraan fasilitas ICT end-to-end dengan konsep Neutral ICT Infrastructure, yaitu konsep infrastructure as a service</p>
+                <button onclick="window.location='{{ route('about')}}'" type="button" class="btn float-end">Lihat Lebih</button>
             </div>
         </div>
     </div> 
@@ -25,26 +22,17 @@
  
 <section class id="our-clients">
     <div class="col-lg-12 col-md-12">
-        <h2 style="color:#3B3E66; text-align:center;"><strong>Our Client</strong></h2> 
+        <h2 style="color:black; text-align:center;"><strong>Our Client</strong></h2> 
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-2 col-md-4 col-6">
-                    <a href="#"><img src="https://www.markuptag.com/images/bluehost-logo.png" class="img-fluid" loading="lazy" alt="Bluehost logo"></a>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#"><img src="{{ asset('/images/client/residence.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo"></a>
                 </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <a href="#"><img src="https://www.markuptag.com/images/hostgator-logo.png" class="img-fluid" loading="lazy" alt="Hostgator logo"></a>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#"><img src="{{ asset('/images/client/hospital.png')}}"class="img-fluid" loading="lazy" alt="Hostgator logo"></a>
                 </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <a href="#"><img src="https://www.markuptag.com/images/greengeeks-logo.png" class="img-fluid" loading="lazy" alt="Green Geeks logo"></a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <a href="#"><img src="https://www.markuptag.com/images/wordpress-logo.png" class="img-fluid" loading="lazy" alt="WordPress logo"></a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <a href="#"><img src="https://www.markuptag.com/images/dreamhost-logo.png" class="img-fluid" loading="lazy" alt="DreamHost logo"></a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <a href="#"><img src="https://www.markuptag.com/images/hostinger-logo.png" class="img-fluid" loading="lazy" alt="Hostinger logo"></a>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <a href="#"><img src="{{ asset('/images/client/office.png')}}" class="img-fluid" loading="lazy" alt="Green Geeks logo"></a>
                 </div>
             </div>
         </div>
