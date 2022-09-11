@@ -18,3 +18,4 @@ use App\Http\Controllers\ServiceController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about-us', [HomeController::class, 'about'])->name('about');
+Route::get('/product', [HomeController::class, 'product'])->name('product');

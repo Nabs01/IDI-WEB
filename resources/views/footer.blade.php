@@ -56,8 +56,7 @@
 		<ul class="nav flex-column">
 			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Infrastructure & Neutral Internet Service</a></li>
 			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">I PTVSolution</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ethernet Service</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">IBCS</a></li>
+			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">HotSpot WiFi</a></li>
 			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Manage Service</a></li>
 		</ul>
 	</div>
