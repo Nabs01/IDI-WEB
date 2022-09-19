@@ -69,28 +69,28 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12 card-poeple" data-aos="zoom-out-right" data-aos-duration="2500">
                         <div class="card" style="width: 100%;">
-                            <img src="{{ asset('/images/person/ppl1.jpeg')}}" class="card-img-top" alt="...">
+                            {{-- <img src="{{ asset('/images/person/ppl1.jpeg')}}" class="card-img-top" alt="..."> --}}
                             <div class="card-body">
-                              <h5 class="card-title">Son</h5>
-                              <p class="card-text">Project Manager</p>
+                              <h5 class="card-title">-</h5>
+                              <p class="card-text">President Director</p>
                             </div>
                           </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 card-poeple" data-aos="zoom-out-center" data-aos-duration="2500">
                         <div class="card" style="width: 100%;">
-                            <img src="{{ asset('/images/person/ppl2.jpeg')}}" class="card-img-top" alt="...">
+                            {{-- <img src="{{ asset('/images/person/ppl2.jpeg')}}" class="card-img-top" alt="..."> --}}
                             <div class="card-body">
-                              <h5 class="card-title">Seung</h5>
-                              <p class="card-text">Developer</p>
+                              <h5 class="card-title">-</h5>
+                              <p class="card-text">Technologi & Operation Director</p>
                             </div>
                           </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 card-poeple" data-aos="zoom-out-left" data-aos-duration="2500">
                         <div class="card" style="width: 100%">
-                            <img src="{{ asset('/images/person/ppl3.jpeg')}}" class="card-img-top" alt="...">
+                            {{-- <img src="{{ asset('/images/person/ppl3.jpeg')}}" class="card-img-top" alt="..."> --}}
                             <div class="card-body">
-                              <h5 class="card-title">Wan</h5>
-                              <p class="card-text">CTO</p>
+                              <h5 class="card-title">-</h5>
+                              <p class="card-text">Finance Director</p>
                             </div>
                           </div>
                     </div>

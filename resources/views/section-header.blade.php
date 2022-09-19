@@ -24,16 +24,8 @@
     <div class="col-lg-12 col-md-12">
         <h2 style="color:black; text-align:center;"><strong>Our Client</strong></h2> 
         <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-4 col-6">
-                    <a href="#"><img src="{{ asset('/images/client/residence.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo"></a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6">
-                    <a href="#"><img src="{{ asset('/images/client/hospital.png')}}"class="img-fluid" loading="lazy" alt="Hostgator logo"></a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-6">
-                    <a href="#"><img src="{{ asset('/images/client/office.png')}}" class="img-fluid" loading="lazy" alt="Green Geeks logo"></a>
-                </div>
+            <div class="col-12 text-center">
+                <img src="{{ asset('/images/client/clientall.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
             </div>
         </div>
     </div>
