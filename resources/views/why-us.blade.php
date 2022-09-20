@@ -4,26 +4,33 @@
             <h2 style="color:black; text-align:center;"><strong>Why Us</strong></h2> 
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <h2 style="color:black; text-align:center;"><strong>Why Us</strong></h2> 
+                    <div class="col-lg-3 col-md-3 col-sm-3">
                         <div class="why-us-image">
-                        <img class="card-img-top" src="{{ asset('/images/icons/infrastructure.png')}}" alt="Card image cap">
+                        <img class="card-img-top" src="{{ asset('/images/icons/analytic.png')}}" alt="Card image cap">
                         </div>
-                        <p class="text-justify" style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p>
+                        <h4 style="color:black; text-align:center;"><strong>Quality & Performance</strong></h4> 
+                        {{-- <p class="text-justify" style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p> --}}
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <h2 style="color:black; text-align:center;"><strong>Why Us</strong></h2> 
+                    <div class="col-lg-3 col-md-3 col-sm-3">
                         <div class="why-us-image">
-                        <img class="card-img-top" src="{{ asset('/images/icons/infrastructure.png')}}" alt="Card image cap">
+                        <img class="card-img-top" src="{{ asset('/images/icons/expert.png')}}" alt="Card image cap">
                         </div>
-                        <p class="text-justify" style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p>
+                        <h4 style="color:black; text-align:center;"><strong>Experience & Expertise Team</strong></h4> 
+                        {{-- <p class="text-justify" style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p> --}}
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <h2 style="color:black; text-align:center;"><strong>Why Us</strong></h2> 
+                    <div class="col-lg-3 col-md-3 col-sm-3">
                         <div class="why-us-image">
-                        <img class="card-img-top" src="{{ asset('/images/icons/infrastructure.png')}}" alt="Card image cap">
+                        <img class="card-img-top" src="{{ asset('/images/icons/cs.png')}}" alt="Card image cap">
                         </div>
-                        <p class="text-justify" style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p>
+                        <h4 style="color:black; text-align:center;"><strong>24/7 Customer Service</strong></h4> 
+                        {{-- <p class="text-justify" style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p> --}}
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="why-us-image">
+                        <img class="card-img-top" src="{{ asset('/images/icons/speed.png')}}" alt="Card image cap">
+                        </div>
+                        <h4 style="color:black; text-align:center;"><strong>Faster Connectivity</strong></h4> 
+                        {{-- <p class="text-justify" style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p> --}}
                     </div>
                 </div>
             </div>
