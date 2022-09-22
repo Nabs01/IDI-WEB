@@ -17,8 +17,8 @@ class HomeController extends Controller
         return view('about-us');
     }
 
-    public function product()
+    public function internet()
     {
-        return view('product');
+        return view('product-internet-services');
     }
 }
