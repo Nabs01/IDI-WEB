@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="box">
-                            <div class="our-services our-solutions">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('vpn')}}'">
                                 <div class="icon"> <i class="icofont-lock icofont-5x"></i> </div>
                                 <h4>VPN Services</h4>
                                 <small>We have several services related to VPN Services :</small>
@@ -40,10 +40,10 @@
                     </div>
                     <div class="col-md-4">
                         <div class="box">
-                            <div class="our-services our-solutions">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('neutralhost')}}'">
                                 <div class="icon"> <i class="icofont-automation icofont-5x"></i></div>
                                 <h4>Neutral Host Infrastructure</h4>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small>
+                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
                             </div>
                         </div>
                     </div>
@@ -51,19 +51,19 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="box">
-                            <div class="our-services our-solutions">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('manage')}}'">
                                 <div class="icon"> <i class="icofont-server icofont-5x"></i> </div>
                                 <h4>Manage Service</h4>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small>
+                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="box">
-                            <div class="our-services our-solutions">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('tripleplay')}}'">
                                 <div class="icon"> <i class="icofont-wifi-alt icofont-5x"></i> </div>
-                                <h4>Hotspot Wifi</h4>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small>
+                                <h4>Triple Play Service</h4>
+                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
                             </div>
                         </div>
                     </div>
