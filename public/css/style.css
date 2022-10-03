@@ -430,6 +430,7 @@ body {
 	padding-bottom: 10vh;
 }
 
+
 .about-us-our-poeple .card-poeple{
 	margin-bottom: 10vh;
 }
@@ -486,7 +487,7 @@ body {
     text-align: center;
 	color: #276ce2
 }
-.our-services:hover h4 ,.our-services:hover small{
+.our-services:hover h4 ,.our-services:hover small, .our-services:hover h5{
     color: #ffffff;
 }
 
@@ -504,6 +505,9 @@ body {
     background: rgba(251, 254, 255, 0.973);
 }
 
+.add-on{
+	background: rgba(251, 254, 255, 0.973);
+}
 /* .term-airbone ul {
 	list-style: none;
   }

@@ -33,7 +33,7 @@
                                             <option value="SDWAN"> SDWAN </option>
                                             <option value="Neutral Host Infrastructure"> Neutral Host Infrastructure </option>
                                             <option value="Manage Service"> Manage Service </option>
-                                            <option value="Hostpot Wifi"> Hostpot Wifi </option>
+                                          
 
                                         </select>
                                         <label for="subject" class=""> Services Solutions</label>

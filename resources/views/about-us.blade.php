@@ -67,30 +67,59 @@
             <div class="col-2"></div>
             <div class="col-8">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 card-poeple" data-aos="zoom-out-right" data-aos-duration="2500">
-                        <div class="card" style="width: 100%;">
-                            {{-- <img src="{{ asset('/images/person/ppl1.jpeg')}}" class="card-img-top" alt="..."> --}}
+                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-right" data-aos-duration="2500">
+                        <div class="card shadow-lg" style="width: 100%;">
+                            <img src="{{ asset('/images/person/Nia Kurnianingsih.png')}}" class="card-img-top" alt="Nia Kurnianingsih"> 
                             <div class="card-body">
-                              <h5 class="card-title">-</h5>
+                              <h5 class="card-title">Nia Kurnianingsih</h5>
                               <p class="card-text">President Director</p>
                             </div>
                           </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 card-poeple" data-aos="zoom-out-center" data-aos-duration="2500">
-                        <div class="card" style="width: 100%;">
-                            {{-- <img src="{{ asset('/images/person/ppl2.jpeg')}}" class="card-img-top" alt="..."> --}}
+                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-center" data-aos-duration="2500">
+                        <div class="card shadow-lg" style="width: 100%;">
+                          <img src="{{ asset('/images/person/Arie Hastanto Kurniawan.png')}}" class="card-img-top" alt="..."> 
                             <div class="card-body">
-                              <h5 class="card-title">-</h5>
-                              <p class="card-text">Technologi & Operation Director</p>
+                              <h5 class="card-title"> Arie Hastanto Kurniawan </h5>
+                              <p class="card-text"> Technologi & Operation Director </p>
                             </div>
                           </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 card-poeple" data-aos="zoom-out-left" data-aos-duration="2500">
-                        <div class="card" style="width: 100%">
+                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-left" data-aos-duration="2500">
+                        <div class="card shadow-lg" style="width: 100%">
                             {{-- <img src="{{ asset('/images/person/ppl3.jpeg')}}" class="card-img-top" alt="..."> --}}
                             <div class="card-body">
-                              <h5 class="card-title">-</h5>
-                              <p class="card-text">Finance Director</p>
+                              <h5 class="card-title"> Alexander Yota </h5>
+                              <p class="card-text"> Finance Director </p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-right" data-aos-duration="2500">
+                        <div class="card shadow-lg" style="width: 100%;">
+                            <img src="{{ asset('/images/person/Nia Kurnianingsih.png')}}" class="card-img-top" alt="Nia Kurnianingsih"> 
+                            <div class="card-body">
+                              <h5 class="card-title">Arief Agung P</h5>
+                              <p class="card-text"> General Manager Operation </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-center" data-aos-duration="2500">
+                        <div class="card shadow-lg" style="width: 100%;">
+                            {{-- <img src="{{ asset('/images/person/ppl2.jpeg')}}" class="card-img-top" alt="..."> --}}
+                            <div class="card-body">
+                              <h5 class="card-title"> Yohan Satria </h5>
+                              <p class="card-text"> General Manager Business Planing </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-left" data-aos-duration="2500">
+                        <div class="card shadow-lg" style="width: 100%">
+                            {{-- <img src="{{ asset('/images/person/ppl3.jpeg')}}" class="card-img-top" alt="..."> --}}
+                            <div class="card-body">
+                              <h5 class="card-title"> Wahyu Nur Hidayat </h5>
+                              <p class="card-text"> General Manager Sales and Marketing </p>
                             </div>
                           </div>
                     </div>

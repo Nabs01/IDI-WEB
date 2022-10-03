@@ -21,4 +21,8 @@ class HomeController extends Controller
     {
         return view('product-internet-services');
     }
+    public function vpn()
+    {
+        return view('product-vpn-services');
+    }
 }

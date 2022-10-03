@@ -20,7 +20,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-up" data-aos-duration="5000">
-                <img src="{{ asset('/images/icons/illustration-for-5g-router-and-technology-to-increase-network-speed-wifi-internet-connection-stability-design-can-be-used-for-landing-page-template-ui-ux-web-website-banner-flyer-free-vector.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Vision and Mision" loading="lazy"/>
+                <img src="{{ asset('/images/icons/illustration-for-5g-router-and-technology-to-increase-network-speed-wifi-internet-connection-stability-design-can-be-used-for-landing-page-template-ui-ux-web-website-banner-flyer-free-vector.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia ID Elite" loading="lazy"/>
             </div>
             <div class="col-lg-1"></div>
             <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
@@ -85,7 +85,7 @@
             </div>
             <div class="col-lg-1"></div>
             <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-right" data-aos-duration="5000">
-                <img src="{{ asset('/images/icons/3d-flying-rocket-spaceship-concept-icon-or-3d-business-growth-up-graph-concept-icon-free-png.png')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Vision and Mision" loading="lazy"/>
+                <img src="{{ asset('/images/icons/3d-flying-rocket-spaceship-concept-icon-or-3d-business-growth-up-graph-concept-icon-free-png.png')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Airbone" loading="lazy"/>
             </div>
         </div>
         <div class="row" id="airbone-package">
@@ -95,28 +95,28 @@
                     <div class="col-md-3">
                         <div class="box">
                             <div class="our-services our-solutions align-items-center d-flex justify-content-center" onClick="location.href='#contact'">    
-                                <small>Airbone Signature (Upto 100 Mbps)</small>                           
+                                <h5>Airbone Signature (Upto 100 Mbps)</h5>                           
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box">
                             <div class="our-services our-solutions align-items-center d-flex justify-content-center"  onClick="location.href='#contact'">    
-                                <small>Airbone Platinum (Upto 75 Mbps)</small>                           
+                                <h5>Airbone Platinum (Upto 75 Mbps)</h5>                           
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box">
                             <div class="our-services our-solutions align-items-center d-flex justify-content-center"  onClick="location.href='#contact'">    
-                                <small>Airbone Gold (Upto 50 Mbps)</small>                           
+                                <h5>Airbone Gold (Upto 50 Mbps)</h5>                           
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box">
                             <div class="our-services our-solutions align-items-center d-flex justify-content-center"  onClick="location.href='#contact'">    
-                                <small>Airbone Silver (Upto 30 Mbps)</small>                           
+                                <h5>Airbone Silver (Upto 30 Mbps)</h5>                           
                             </div>
                         </div>
                     </div>
@@ -125,11 +125,42 @@
             </div>
         </div>
         <div class="row">
-            <h3 class="text-center my-2"><strong> Add-ON Internet</strong></h3>
+            <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
+                <div class="row about-us-content">
+                    <h3><strong> Neutral Host Infrastructure </strong></h3>
+                    <p> <strong> Operator Independency </strong>, can be used for various services (Internet, IPTV, Telephony).</p>
+                    <p> <strong> Flexible </strong>, , in dealing with service changes, service additions and service improvements from each operator. </p>
+                    <p> <strong> Neat and clean </strong>, not overlapping and simple. </p>
+                    <p> <strong> Sophisticated </strong>, accommodate future technological developments. </p>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-right" data-aos-duration="5000">
+                <img src="{{ asset('/images/icons/NeutralHost.png')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Neutral Host" loading="lazy"/>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-up" data-aos-duration="5000">
+                <img src="{{ asset('/images/icons/Triple-play.png')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Triple Play" loading="lazy"/>
+                <img src="{{ asset('/images/icons/Triple-play2.png')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Triple Play" loading="lazy"/>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
+                <div class="row about-us-content">
+                    <h3><strong>Triple Play Services </strong></h3>
+                    <p><strong>Internet Services</strong>, provide internet broadband & dedicated according to customer request.</p>
+                    <p><strong>IPTV/MATV</strong>, provide TV service that displays the latest entertainment programs with the best resolution quality, Provide Basic & Premium Channel based on Customer Needs with many additional content (Blacknut Game, HBO Go, Vidio and many more).</p>
+                    <p><strong>Telephony</strong>, IP-based Telephone Service, which is continuously developed and managed so that it remains relevant and adaptive to today's business telecommunications needs. Cloud PBX deliver : Access code according to area code, available in various packages according to customer needs (PABX, SIP Trunk), Fast Installation.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="text-center my-2 add-on"><strong> Add-ON Internet</strong></h3>
             <div class="row mt-5">    
                 <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-right" data-aos-duration="5000">
                     <div class="row about-us-content">
-                         <img src="{{ asset('/images/icons/router-wifi-technology-free-vector.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Vision and Mision" loading="lazy"/>
+                         <img src="{{ asset('/images/icons/router-wifi-technology-free-vector.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Add on My Plus" loading="lazy"/>
                 
                     </div>
                 </div>
@@ -147,9 +178,22 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-right" data-aos-duration="5000">
                     <div class="row about-us-content">
-                         <img src="{{ asset('/images/icons/security-system-cctv-cameras-motion-sensors-observation-monitoring-devices_98292-8221.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Vision and Mision" loading="lazy"/>
+                         <img src="{{ asset('/images/icons/security-system-cctv-cameras-motion-sensors-observation-monitoring-devices_98292-8221.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Add On CCTV" loading="lazy"/>
                 
                     </div>
+                </div>
+            </div>
+            <div class="row mt-5">    
+                <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-right" data-aos-duration="5000">
+                    <div class="row about-us-content">
+                         <img src="{{ asset('/images/icons/router-wifi-technology-free-vector.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Add On Access Point" loading="lazy"/>
+                
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
+                    <h3><strong>Access Point </strong></h3>
+                    <p>is a router product that can be rented so that the wifi signal covers all corners of the house with "seamless coverage".</p>   
                 </div>
             </div>
         </div>

@@ -15,15 +15,13 @@
                         <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Product</a>
                         <div class="dropdown-menu">
                             <a href="#" onclick="window.location='{{ route('internet')}}'"   class="nav-dropdown-item dropdown-item ">Internet Service</a>
-                            <a href="#" onclick=""   class="nav-dropdown-item dropdown-item ">VPN Service</a>
-                            <a href="#" onclick=""   class="nav-dropdown-item dropdown-item ">Neutral Host Infrastructure</a>
-                            <a href="#" onclick=""   class="nav-dropdown-item dropdown-item ">Manage Service</a>
-                            <a href="#" onclick=""   class="nav-dropdown-item dropdown-item ">Hotspot Wifi</a>
+                            <a href="#" onclick="window.location='{{ route('vpn')}}'"    class="nav-dropdown-item dropdown-item ">VPN Service</a>
+                            <a href="#manage-service"   class="nav-dropdown-item dropdown-item ">Manage Service</a>
                             
                         </div>
                     </div>
                     <a onclick="window.location='{{ route('about')}}'" class="nav-item nav-link text-white">About Us</a>
-                    <a class="nav-item nav-link text-white">Contact</a>
+                    <a href="#contact" class="nav-item nav-link text-white">Contact</a>
                 </div>
             </div>
         </div>
