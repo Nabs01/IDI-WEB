@@ -24,9 +24,42 @@
     <div class="col-lg-12 col-md-12">
         <h2 style="color:black; text-align:center;"><strong>Our Client</strong></h2> 
         <div class="container">
-            <div class="col-12 text-center">
-                <img src="{{ asset('/images/client/clientall.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+            <div class="row justify-content-center">
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/Anandamaya Residence.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/BANDARA CITY.jpeg')}}" class="img-fluid"  loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/FAVE HOTELS.jpeg')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/GO WORK.jpeg')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/ITDC.jpeg')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/MERUSAKA NUSA DUA.jpeg')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/MGM BOSCO.jpeg')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/The Pakubuwono Spring.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/The Pakubuwono Menteng.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/Millennium Centennial Center.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
+                <div class="col-sm-2">
+                    <img src="{{ asset('/images/Client/TRANS STUDIO MALL BALI.jpeg')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
             </div>
+            
         </div>
     </div>
 </section> 

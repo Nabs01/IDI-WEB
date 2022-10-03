@@ -267,6 +267,11 @@ body {
 	font-weight:500;
 }
 
+#our-clients img{
+	max-height: 15vh;
+	margin:1em;
+}
+
 #our-solutions h2{
     margin: 5vh !important;
 	text-align: left;
