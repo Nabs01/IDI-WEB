@@ -32,7 +32,6 @@
                                             <option value="IP VPN"> IP VPN </option>
                                             <option value="SDWAN"> SDWAN </option>
                                             <option value="Neutral Host Infrastructure"> Neutral Host Infrastructure </option>
-                                            <option value="Manage Service"> Manage Service </option>
                                           
 
                                         </select>
