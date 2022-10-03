@@ -9,7 +9,7 @@
         <div class="row">
             <div class="container-fluid mb-5 col-md-12 col-sm-12">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="box">
                             <div class="our-services our-solutions" onclick="window.location='{{ route('internet')}}'">
                                 <div class="icon"> <i class="icofont-signal icofont-5x"></i> </div>
@@ -27,7 +27,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="box">
                             <div class="our-services our-solutions" onclick="window.location='{{ route('vpn')}}'">
                                 <div class="icon"> <i class="icofont-lock icofont-5x"></i> </div>
@@ -37,26 +37,6 @@
                                 <small>1. IP VPN </small>
                                 <br>
                                 <small>2. SDWAN </small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="box">
-                            <div class="our-services our-solutions">
-                                <div class="icon"> <i class="icofont-automation icofont-5x"></i></div>
-                                <h4>Neutral Host Infrastructure</h4>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="box">
-                            <div class="our-services our-solutions">
-                                <div class="icon"> <i class="icofont-server icofont-5x"></i> </div>
-                                <h4>Manage Service</h4>
-                                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small>
                             </div>
                         </div>
                     </div>

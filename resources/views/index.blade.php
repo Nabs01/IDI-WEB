@@ -7,6 +7,7 @@
 
 @include('section-header')
 @include('our-solutions')
+@include('manage-service')
 @include('why-us')
 
     

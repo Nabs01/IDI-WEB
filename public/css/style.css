@@ -253,6 +253,10 @@ body {
     padding: 15vh !important
 }
 
+#manage-service{
+	padding-top: 5vh;
+}
+
 #our-clients h2{
     margin: 10vh !important;
 	text-align: center;
@@ -517,3 +521,55 @@ body {
 	height: 50%;
 	width: 50%;
   } */
+
+  /* =============================================================== Our People ================================================================= */
+  .img-hover-zoom--colorize img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    padding: 1px;
+    transition: transform .5s;
+    filter: grayscale(100%);
+}
+
+.img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+
+.role {
+    color: #7a7a7a;
+}
+
+
+
+.fab {
+    font-size: 1.5rem;
+    color: darkgray;
+    transition: transform .5s;
+}
+
+.fab:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+
+#our-poeple h2 {
+    font-size: 1rem;
+}
+
+#our-poeple h1 {
+    font-size: 1.5rem;
+}
+
+/* MEDIA */
+
+@media only screen and (min-width: 1200px) {
+    .img-hover-zoom--colorize img {
+        width: 200px;
+    }
+}
+

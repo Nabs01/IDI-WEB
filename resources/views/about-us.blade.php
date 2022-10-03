@@ -62,71 +62,134 @@
 
 <section class id="our-poeple">
     <div class="container about-us-our-poeple">
-        <p class="about-us-title-content">Our Poeple</p>
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-right" data-aos-duration="2500">
-                        <div class="card shadow-lg" style="width: 100%;">
-                            <img src="{{ asset('/images/person/Nia Kurnianingsih.png')}}" class="card-img-top" alt="Nia Kurnianingsih"> 
-                            <div class="card-body">
-                              <h5 class="card-title">Nia Kurnianingsih</h5>
-                              <p class="card-text">President Director</p>
+        <p class="about-us-title-content">Our People</p>
+        <div class="container p-5">
+            <div class="row  g-3">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="text-center">
+                            <div class="img-hover-zoom img-hover-zoom--colorize">
+                                <img class="shadow" src="{{ asset('/images/person/Nia Kurnianingsih.png')}}" alt="Nia Kurnianingsih">
                             </div>
-                          </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-center" data-aos-duration="2500">
-                        <div class="card shadow-lg" style="width: 100%;">
-                          <img src="{{ asset('/images/person/Arie Hastanto Kurniawan.png')}}" class="card-img-top" alt="..."> 
-                            <div class="card-body">
-                              <h5 class="card-title"> Arie Hastanto Kurniawan </h5>
-                              <p class="card-text"> Technologi & Operation Director </p>
+                        </div>
+                        <div class="card-body">
+                            <div class="clearfix mb-3">
                             </div>
-                          </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-left" data-aos-duration="2500">
-                        <div class="card shadow-lg" style="width: 100%">
-                            {{-- <img src="{{ asset('/images/person/ppl3.jpeg')}}" class="card-img-top" alt="..."> --}}
-                            <div class="card-body">
-                              <h5 class="card-title"> Alexander Yota </h5>
-                              <p class="card-text"> Finance Director </p>
+                            <div class="my-2 text-center">
+                                <h1>Nia Kurnianingsih</h1>
                             </div>
-                          </div>
+                            <div class="mb-3">
+                                <h2 class="text-uppercase text-center role">President Director</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-right" data-aos-duration="2500">
-                        <div class="card shadow-lg" style="width: 100%;">
-                            <img src="{{ asset('/images/person/Nia Kurnianingsih.png')}}" class="card-img-top" alt="Nia Kurnianingsih"> 
-                            <div class="card-body">
-                              <h5 class="card-title">Arief Agung P</h5>
-                              <p class="card-text"> General Manager Operation </p>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="text-center">
+                            <div class="img-hover-zoom img-hover-zoom--colorize">
+                                <img class="shadow" src="{{ asset('/images/person/Arie Hastanto Kurniawan.png')}}" alt="Another Image zoom-on-hover effect">
                             </div>
-                          </div>
+                        </div>
+                
+                        <div class="card-body">
+                            <div class="clearfix mb-3">
+                            </div>
+                            <div class="my-2 text-center">
+                                <h1>Arie Hastanto K.</h1>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="text-uppercase text-center role">Technology & Operation Director</h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-center" data-aos-duration="2500">
-                        <div class="card shadow-lg" style="width: 100%;">
-                            {{-- <img src="{{ asset('/images/person/ppl2.jpeg')}}" class="card-img-top" alt="..."> --}}
-                            <div class="card-body">
-                              <h5 class="card-title"> Yohan Satria </h5>
-                              <p class="card-text"> General Manager Business Planing </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="text-center">
+                            <div class="img-hover-zoom img-hover-zoom--colorize">
+                                <img class="shadow" src="{{ asset('/images/person/Alexander Yota.png')}}" alt="Another Image zoom-on-hover effect">
                             </div>
-                          </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="clearfix mb-3">
+                            </div>
+                            <div class="my-2 text-center">
+                                <h1>Alexander Yota</h1>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="text-uppercase text-center role">Finance Director</h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 card-poeple" data-aos="zoom-out-left" data-aos-duration="2500">
-                        <div class="card shadow-lg" style="width: 100%">
-                            {{-- <img src="{{ asset('/images/person/ppl3.jpeg')}}" class="card-img-top" alt="..."> --}}
-                            <div class="card-body">
-                              <h5 class="card-title"> Wahyu Nur Hidayat </h5>
-                              <p class="card-text"> General Manager Sales and Marketing </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="text-center">
+                            <div class="img-hover-zoom img-hover-zoom--colorize">
+                                <img class="shadow" src="{{ asset('/images/person/Arief Agung P.png')}}"alt="Another Image zoom-on-hover effect">
                             </div>
-                          </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="clearfix mb-3">
+                            </div>
+                            <div class="my-2 text-center">
+                                <h1>Arief Agung P</h1>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="text-uppercase text-center role">General Manager Operation</h2>
+                            </div>
+
+                        
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="text-center">
+                            <div class="img-hover-zoom img-hover-zoom--colorize">
+                                <img class="shadow"src="{{ asset('/images/person/Yohan Satria.png')}}" alt="Another Image zoom-on-hover effect">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="clearfix mb-3">
+                            </div>
+                            <div class="my-2 text-center">
+                                <h1>Yohan Satria</h1>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="text-uppercase text-center role">General Manager Business Planing</h2>
+                            </div>
+
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-lg">
+                        <div class="text-center">
+                            <div class="img-hover-zoom img-hover-zoom--colorize">
+                                <img class="shadow" src="{{ asset('/images/person/Wahyu Nur Hidayat.png')}}" alt="Another Image zoom-on-hover effect">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="clearfix mb-3">
+                            </div>
+                            <div class="my-2 text-center">
+                                <h1>Wahyu Nur H.</h1>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="text-uppercase text-center role">General Manager Sales and Marketing</h2>
+                            </div>
+
+                        
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-2"></div>
         </div>
+        
     </div>
 </section> 
     

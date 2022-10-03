@@ -16,7 +16,7 @@
                         <div class="dropdown-menu">
                             <a href="#" onclick="window.location='{{ route('internet')}}'"   class="nav-dropdown-item dropdown-item ">Internet Service</a>
                             <a href="#" onclick="window.location='{{ route('vpn')}}'"    class="nav-dropdown-item dropdown-item ">VPN Service</a>
-                            <a href="#manage-service"   class="nav-dropdown-item dropdown-item ">Manage Service</a>
+                            
                             
                         </div>
                     </div>
