@@ -3,9 +3,29 @@
     src: url(../font/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: bitter-regular;
+    src: url(../font/bitter/Bitter-Regular.ttf);
+}
+
+@font-face {
+    font-family: bitter-bold;
+    src: url(../font/bitter/Bitter-Bold.ttf);
+}
+
+p{
+	font-size: 1.1rem;
+}
+
+small{
+	font-size: 1rem;
+}
+
 body {
     font-family: poppins;
+	overflow-x: hidden;
 }
+
 
 /*-------------------------------------- Header ---------------------------------------  */
 
@@ -20,17 +40,6 @@ body {
 	padding-top: 20em;
 	padding-bottom: 2.5em;
 	background: url('../images/Group 75.png') center center no-repeat;
-	background-size:100% auto;
-	text-align: center;
-	object-fit: contain;
-   
-    
-}
-
-.header-about-us {
-	padding-top: 20em;
-	padding-bottom: 2.5em;
-	background: url('../images/Group 80.png') center center no-repeat;
 	background-size:100% auto;
 	text-align: center;
 	object-fit: contain;
@@ -87,17 +96,6 @@ body {
 	margin-bottom: 2rem;
 }
 
-/* ----------------------------------- About Us --------------------------------------------*/
-
-#aboutUs .card{
-    border-radius: 20px;
-	float:none; 
-	position:center;
-	margin-left: auto; 
-	margin-right: auto; 
-	border-radius:10px;
-}
-
 
 
 /* ----------------------------------- Section Content ------------------------------------- */
@@ -106,7 +104,7 @@ body {
     padding-bottom: 5em !important
 }
 
-#visi-misi {
+#visi-misi,#internet-services{
 	padding-top: 5em !important;
     padding-bottom: 5em !important;
 }
@@ -131,16 +129,17 @@ body {
 
 .btn-solid-lg {
 	display: inline-block;
-	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+	padding: 1.2em 2.2em 1.2em 2.2em;
 	border: 1px solid #194A9D;
 	border-radius: 32px;
-	background: linear-gradient(to right, #1799D5,#194A9D);
+	background: linear-gradient(to right, #1799D5,#447fe6);
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: all 0.2s;
+	margin-left: 10vh;
 }
 
 .btn-solid-lg:hover {
@@ -162,6 +161,7 @@ body {
 	text-decoration: none;
 	transition: all 0.2s;
 	filter: drop-shadow(95% #F3F6FF);
+	max-width: 100%;
 }
 
 .btn-solid-sm-more:hover {
@@ -169,6 +169,30 @@ body {
 	background-color: transparent;
 	color: #1799D5;
 	text-decoration: none;
+
+}
+
+.btn-send{
+	display: inline-block;
+	padding: 1.2em;
+	border: 1px solid #194A9D;
+	border-radius: 30px;
+	background-color: #194A9D;
+	color: #ffffff;
+	font-size: 0.875em;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+	filter: drop-shadow(95% #F3F6FF);
+	max-width: 100%;
+}
+
+.btn-send:hover {
+	border: 1px solid #1799D5;
+	background-color: transparent;
+	color: #1799D5;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .nav-dropdown-item:hover{
@@ -187,3 +211,378 @@ body {
 #visi-misi ul li::before{
 	color :#194A9D;
 }
+
+/* ======================================= Home Header ======================================= */
+
+
+
+.header-home {
+	height: 70vh;
+	min-height: 500px;
+	background-image: url('../images/Group 75.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.home-title{
+	color: white;
+	font-family: bitter-regular;
+	font-size: 40px;
+	font-weight:500;
+	padding-left: 10vh;
+}
+
+.home-head-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-header-btn{
+	margin-left: 10vh;
+	background-color: #1799D5;
+	color: white;
+}
+
+/* ----------------------------------- About Us --------------------------------------------*/
+
+#aboutUs .card{
+	float:inline-start; 
+	position:center;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: -10vh;
+	border-radius:20px;
+}
+
+/* ----------------------------------- Section Content ------------------------------------- */
+
+#our-clients{
+    padding: 15vh !important
+}
+
+#manage-service{
+	padding-top: 5vh;
+}
+
+#our-clients h2{
+    margin: 10vh !important;
+	text-align: center;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 40px;
+	font-weight:500;
+}
+
+#our-clients img{
+	max-height: 15vh;
+	margin:1em;
+}
+
+#our-solutions h2{
+    margin: 5vh !important;
+	text-align: left;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 40px;
+	font-weight:500;
+}
+
+#our-solutions p{
+	text-align: center;
+	color: black;
+	font-family: bitter;
+	font-size: 20px;
+	font-weight:500;
+}
+
+#our-solutions .title-content{
+	margin: auto;
+}
+
+#our-solutions {
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    background: rgba(23, 153, 213, 0.55);
+}
+
+/* #our-solutions .card-img-top{ */
+	/* padding-top: 2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 2vw; */
+	/* padding: 3vw; */
+/* } */
+
+#our-solutions .card{
+	text-align: center;
+	margin: 20px;
+	border-radius: 20px;
+	width: 200px;
+}
+
+#why-us h2{
+    margin: 5vh !important;
+	text-align: left;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 40px;
+	font-weight:500;
+}
+
+#why-us h4{
+    margin: 5vh !important;
+	text-align: left;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 20px;
+	font-weight:300;
+}
+
+
+
+.why-us-image{
+	padding: 4vw;
+}
+
+.why-us-image img{
+	min-width: 6vw;
+	min-height: 10vh;
+}
+
+/* ========================================== Form Contact Us ==================================== */
+
+#contact {
+	padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    background: rgba(23, 153, 213, 0.55);
+}
+
+#gmap_canvas{
+	height: 20em;
+	width: 100%;
+}
+
+
+
+/* ======================================= About Us Header ======================================= */
+
+
+
+.header-about-us {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url('../images/Group 80.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.about-us-title{
+	color: white;
+	font-family: bitter-regular;
+	font-size: 3vw;
+	font-weight:500;
+}
+.about-us-title-content{
+	text-align: center;
+	color: black;
+	font-family: bitter-bold;
+	font-size: 40px;
+	font-weight:500;
+}
+
+.about-us-company{
+	color: white;
+	font-family: bitter-bold;
+	font-size: 4vw;
+}
+
+.about-us-subtitle{
+	color: white;
+	font-family: bitter-regular;
+	font-size: 2vh;
+	word-spacing: 5px;
+}
+
+.about-us-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-us-container hr{
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	width: 40%;
+	top: 10px;
+	height: 0.5vh;
+	background-color: #ffffff;
+	opacity: 100%;
+}
+
+.about-us-content-title{
+	color: black;
+	font-family: bitter-bold;
+	font-size: 30px;
+	word-spacing: 5px;
+}
+
+.about-us-content-subtitle{
+	font-size: 1.1rem;
+	word-spacing: 5px;
+}
+
+.about-us-content{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.about-us-our-poeple{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10vh;
+}
+
+
+.about-us-our-poeple .card-poeple{
+	margin-bottom: 10vh;
+}
+
+
+/* ======================================= Product Header ======================================= */
+
+
+
+.header-product {
+	height: 50vh;
+	min-height: 500px;
+	background-image: url('../images/Group 80.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.product-title{
+	color: white;
+	font-family: bitter-regular;
+	font-size: 3vw;
+	font-weight:500;
+}
+
+.product-main-btn{
+	color: white;
+	background-color: #1799D5;
+	white-space: normal;
+}
+
+/* ======================================= Our Solutions ======================================= */
+
+.box{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.our-services{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 38vh;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
+}
+.our-services .icon{
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center;
+	color: #276ce2
+}
+.our-services:hover h4 ,.our-services:hover small, .our-services:hover h5{
+    color: #ffffff;
+}
+
+.our-solutions:hover{
+    box-shadow: 25px 0 25px 0 rgba(11, 17, 199, 0.05);
+    cursor: pointer;
+    background: rgb(66,231,247);
+	background: radial-gradient(circle, rgba(66,231,247,1) 0%, rgba(38,138,230,1) 100%);
+}
+
+#airbone-package{
+
+	padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    background: rgba(251, 254, 255, 0.973);
+}
+
+.add-on{
+	background: rgba(251, 254, 255, 0.973);
+}
+/* .term-airbone ul {
+	list-style: none;
+  }
+  
+.term-airbone ul li:before {
+	content: "\2713";
+	height: 50%;
+	width: 50%;
+  } */
+
+  /* =============================================================== Our People ================================================================= */
+  .img-hover-zoom--colorize img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    padding: 1px;
+    transition: transform .5s;
+    filter: grayscale(100%);
+}
+
+.img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+
+.role {
+    color: #7a7a7a;
+}
+
+
+
+.fab {
+    font-size: 1.5rem;
+    color: darkgray;
+    transition: transform .5s;
+}
+
+.fab:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+
+#our-poeple h2 {
+    font-size: 1rem;
+}
+
+#our-poeple h1 {
+    font-size: 1.5rem;
+}
+
+/* MEDIA */
+
+@media only screen and (min-width: 1200px) {
+    .img-hover-zoom--colorize img {
+        width: 200px;
+		height: 200px;
+    }
+}
+

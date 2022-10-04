@@ -12,17 +12,16 @@
                 <div class="navbar-nav ms-auto me-lg-1">
                     <a  onclick="window.location='{{ route('home')}}'" class="nav-item nav-link active text-white">Home</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Product</a>
+                        <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Product</a>
                         <div class="dropdown-menu">
-                            <a href="#" class="nav-dropdown-item dropdown-item ">Infrastructure & Neutral Internet Service</a>
-                            <a href="#" class="nav-dropdown-item dropdown-item">I PTVSolution</a>
-                            <a href="#" class="nav-dropdown-item dropdown-item">Ethernet Service</a>
-                            <a href="#" class="nav-dropdown-item dropdown-item">IBCS</a>
-                            <a href="#" class="nav-dropdown-item dropdown-item">Manage Service</a>
+                            <a href="#" onclick="window.location='{{ route('internet')}}'"   class="nav-dropdown-item dropdown-item ">Internet Service</a>
+                            <a href="#" onclick="window.location='{{ route('vpn')}}'"    class="nav-dropdown-item dropdown-item ">VPN Service</a>
+                            
+                            
                         </div>
                     </div>
                     <a onclick="window.location='{{ route('about')}}'" class="nav-item nav-link text-white">About Us</a>
-                    <a href="#" class="nav-item nav-link text-white">Contact</a>
+                    <a href="#contact" class="nav-item nav-link text-white">Contact</a>
                 </div>
             </div>
         </div>

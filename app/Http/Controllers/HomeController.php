@@ -16,4 +16,13 @@ class HomeController extends Controller
     {
         return view('about-us');
     }
+
+    public function internet()
+    {
+        return view('product-internet-services');
+    }
+    public function vpn()
+    {
+        return view('product-vpn-services');
+    }
 }
