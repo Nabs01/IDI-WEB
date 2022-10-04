@@ -160,20 +160,20 @@
             <div class="row mt-5">    
                 <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-right" data-aos-duration="5000">
                     <div class="row about-us-content">
-                         <img src="{{ asset('/images/icons/router-wifi-technology-free-vector.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Add on My Plus" loading="lazy"/>
+                         <img src="{{ asset('/images/icons/wireless-signal-gf8a7d5ca7_1280.png')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Add on My Plus" loading="lazy"/>
                 
                     </div>
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
                     <h3><strong>MyPlus</strong></h3>
-                    <p>is a router product that can be rented so that the wifi signal covers all corners of the house with "seamless coverage".</p>   
+                    <p>MyPlus is a router product that can be rented so that the wifi signal covers all corners of the house with "seamless coverage".</p>   
                 </div>
             </div>
             <div class="row mt-5">    
                 <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
                     <h3><strong>CCTV</strong></h3>
-                    <p>is a router product that can be rented so that the wifi signal covers all corners of the house with "seamless coverage".</p>   
+                    <p>CCTV is a TV system in which signals are not publicly distributed but are monitored, primarily for surveillance and security purposes. CCTV relies on strategic placement of cameras and private observation of the camera's input on monitors. The system is called "closed-circuit" because the cameras, monitors and/or video recorders communicate across a proprietary coaxial cable run or wireless communication link. CCTV surveillance can deter potential criminals. When a crime does occur, video footage can help law enforcement to investigate and later provide evidence for prosecution in a law court. For businesses, CCTV cameras can detect and monitor in-house criminal activities..</p>   
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-right" data-aos-duration="5000">
@@ -193,7 +193,7 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
                     <h3><strong>Access Point </strong></h3>
-                    <p>is a router product that can be rented so that the wifi signal covers all corners of the house with "seamless coverage".</p>   
+                    <p>Access Point is a device that creates a wireless local area network, or WLAN, usually in an office or large building. An access point connects to a wired router, switch, or hub via an Ethernet cable, and projects a WiFi signal to a designated area. Using a Access Point lets you create a wireless network within your existing wired network, so you can accommodate wireless devices. Access points, on the other hand, can handle over 60 simultaneous connections each.</p>   
                 </div>
             </div>
         </div>
