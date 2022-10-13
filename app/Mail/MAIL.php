@@ -28,13 +28,10 @@ class MAIL extends Mailable
      */
     public function build()
     {   
-     
+       
         return $this->from('hostidigital361@gmail.com')
-        ->subject($this->details['name'])
-        ->view('mail.contact-mail')
-        ->with([
-            'name' => 'Diki Alfarabi Hadi',
-            'website' => 'www.malasngoding.com',
-        ]);
+        ->subject($this->details['subject'])
+        ->view('mail.contact-mail');
+        
     }
 }
