@@ -20,3 +20,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about-us', [HomeController::class, 'about'])->name('about');
 Route::get('/internet-services', [HomeController::class, 'internet'])->name('internet');
 Route::get('/vpn-services', [HomeController::class, 'vpn'])->name('vpn');
+Route::post('/send-email', [HomeController::class, 'sendEmail'])->name('sendEmail');

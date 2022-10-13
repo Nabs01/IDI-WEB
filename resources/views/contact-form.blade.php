@@ -3,10 +3,16 @@
         <p class="text-center w-responsive mx-auto mb-5 text-light">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
         a matter of hours to help you.</p>
     <div class="card shadow p-3 mb-5 bg-body rounded m-5">
+        @if(Session::has("message_sent"))
+        <div class="alert alert-success" role="alert">
+            {{Session::get("message_sent")}} 
+        </div>
+        @endif
         <div class="container mt-3 mb-3 p-4">
             <div class="row">
                 <div class="col-md-6">
-                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <form id="contact-form" name="contact-form" enctype="multipart/form-data" action="{{route('sendEmail')}}" method="POST">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="md-form mb-2">
@@ -21,11 +27,16 @@
                                     </div>
                                 </div>
                             </div>
-                        
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                     <div class="md-form mb-2">
-                                        <select class="form-select" aria-label="Default select example" required>
+                                        <input type="tel" id="phone" name="phone" class="form-control" required>
+                                        <label for="phone" class="">Your Phone</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-2">
+                                        <select id="subject" name="subject" class="form-select" aria-label="Default select example" required>
                                             <option  selected value="ID Elite "> ID Elite  </option>
                                             <option value="Airbone"> Airbone </option>
                                             <option value="Add-ON"> Add-ON</option>
@@ -39,7 +50,6 @@
                                     </div>
                                 </div>
                             </div>
-                            
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form">
@@ -49,11 +59,10 @@
 
                                 </div>
                             </div>
+                            <div class="row mt-2">
+                                <button type="submit" class="btn-send text-center">Send</button>
+                            </div>
                         </form>
-
-                        <div class="row mt-2">
-                            <a class="btn-send text-center" onclick="document.getElementById('contact-form').submit();">Send</a>
-                        </div>
                         <div class="status"></div>
                 </div>
 
@@ -67,7 +76,6 @@
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>

@@ -13,15 +13,15 @@
 					<i class="icofont-ui-call icofont-1x"></i>
 				</div>
 				<div class="col">
-					<span> (+62)21-5086-8858</span>
+					<span>150188</span>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" style="cursor:pointer;">
 				<div class="col-sm-1">
 					<i class="icofont-brand-whatsapp icofont-1x"></i> 
 				</div>
 				<div class="col">
-					<span> (+62)811-1500-508</span>
+					<span  onclick="window.location.href='https://api.whatsapp.com/send?phone=08111500508&text=Hello, I want to ask a question regarding IDI products';"> (+62)811-1500-508</span>
 				</div>
 			</div>
 			<div class="row">
@@ -56,17 +56,6 @@
 		<ul class="nav flex-column">
 			<li class="nav-item mb-2"><a href="#" onclick="window.location='{{ route('internet')}}'" class="nav-link p-0 text-muted">Internet Services</a></li>
 			<li class="nav-item mb-2"><a href="#" onclick="window.location='{{ route('vpn')}}'" class="nav-link p-0 text-muted">VPN Services</a></li>
-		</ul>
-	</div>
-
-	<div class="col mb-3" hidden>
-		<h5>Section</h5>
-		<ul class="nav flex-column">
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
 		</ul>
 	</div>
 	
