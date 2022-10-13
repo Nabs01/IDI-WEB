@@ -17,7 +17,7 @@
                   <div class="col-1">
                   </div>
                   <div class="col-10">
-                        <p class="about-us-subtitle"> PT Infrastruktur Digital Indonesia(IDI) adalah perusahaan yang bergerak di bidang pembangunan infrastruktur dan penyelanggaraan layanan teknologi informasi dan Komunikasi/TIK (Information Communication and Technology/ICT), Bentuk layanan TIK kami berupa pembanguann, pengoperasian dan penyenggaraan fasilitas ICT end-to-end dengan konsep Neutral ICT Infrastructure, yaitu konsep infrastructure as a service</p>
+                        <p class="about-us-subtitle"> PT Infrastructure Digital Indonesia (IDI) is a company engaged in infrastructure development and the provision of information and communication technology/ICT (Information Communication and Technology/ICT) services. with the concept of Neutral ICT Infrastructure, namely the concept of infrastructure as a services.</p>
                   </div>
                   <div class="col-1">
                   </div>
@@ -39,20 +39,20 @@
                 <div class="row about-us-content">
                     <p class="about-us-content-title"><strong>Our Philosopy</strong></p>
                     <ul>
-                        <li><p class="about-us-content-subtitle">Company philosophy to Build–Serve–Managed–Optimized of end-to-end ICT facilities with the concept of Neutral ICT Infrastructure, namely the concept of infrastructure as a service.</p> </li>  
+                        <li><p class="text-justify">Company philosophy to Build–Serve–Managed–Optimized of end-to-end ICT facilities with the concept of Neutral ICT Infrastructure, namely the concept of infrastructure as a service.</p> </li>  
                     </ul>
                 </div>
                 <div class="row about-us-content">
                     <p class="about-us-content-title"><strong>Our Vision</strong></p>
                     <ul>
-                        <li><p class="about-us-content-subtitle">To be a leading company in delivering neutral infrastructure and Digital Services. </p></li>  
+                        <li><p class="text-justify">To be a leading company in delivering neutral infrastructure and Digital Services. </p></li>  
                     </ul>
                 </div>
                 <div class="row about-us-content">
                     <p class="about-us-content-title"><strong>Our Mission</strong></p>
                     <ul>
-                        <li><p class="about-us-content-subtitle">Acquire quality cluster and buildings. </p> </li>
-                        <li><p class="about-us-content-subtitle">Deliver value add service to customer through our excellent service. </p></li>  
+                        <li><p class="text-justify">Acquire quality cluster and buildings. </p> </li>
+                        <li><p class="text-justify">Deliver value add service to customer through our excellent service. </p></li>  
                     </ul>
                 </div>
             </div>

@@ -3,7 +3,7 @@
         <div class="row h-100 align-items-center">
           <div class="col-lg-12 text-left">
             <h3 class="home-title">Welcome to <br> PT. INFRASTRUKTUR DIGITAL INDONESIA</h3>
-            <button type="button" class="btn-solid-lg" onClick="location.href='#our-solutions'">Lihat Lebih</button>
+            <button type="button" class="btn-solid-lg" onClick="location.href='#our-solutions'"> View more</button>
         </div>
       </div>
 </header> 
@@ -12,9 +12,9 @@
     <div class="col-lg-9 col-md-9 col-sm-9 card shadow-lg p-4" >
         <div class="card-body">
             <div class="container">
-                <h4 class="text-left title">Tentang Pt. Infrstruktur Digital Indonesia</h4>
-                <p class="card-subtitle mt-3 text-muted">PT Infrastruktur Digital Indonesia(IDI) adalah perusahaan yang bergerak di bidang pembangunan infrastruktur dan penyelanggaraan layanan teknologi informasi dan Komunikasi/TIK (Information Communication and Technology/ICT), Bentuk layanan TIK kami berupa pembanguann, pengoperasian dan penyenggaraan fasilitas ICT end-to-end dengan konsep Neutral ICT Infrastructure, yaitu konsep infrastructure as a service</p>
-                <button onclick="window.location='{{ route('about')}}'" type="button" class="btn-solid-sm-more float-end">Selengkapnya <i class="icofont-arrow-right"></i></button>
+                <h4 class="text-left title">Pt. Infrstruktur Digital Indonesia</h4>
+                <p class="card-subtitle mt-3 text-muted"> PT Infrastructure Digital Indonesia (IDI) is a company engaged in infrastructure development and the provision of information and communication technology/ICT (Information Communication and Technology/ICT) services. with the concept of Neutral ICT Infrastructure, namely the concept of infrastructure as a services.</p>
+                <button onclick="window.location='{{ route('about')}}'" type="button" class="btn-solid-sm-more float-end"> Read more <i class="icofont-arrow-right"></i></button>
             </div>
         </div>
     </div> 
