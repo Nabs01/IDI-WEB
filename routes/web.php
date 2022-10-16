@@ -20,6 +20,10 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about-us', [HomeController::class, 'about'])->name('about');
 Route::get('/internet-services', [HomeController::class, 'internet'])->name('internet');
 Route::get('/vpn-services', [HomeController::class, 'vpn'])->name('vpn');
+<<<<<<< HEAD
 Route::get('/manage-services', [HomeController::class, 'manage'])->name('manage');
 Route::get('/triple-play-services', [HomeController::class, 'tripleplay'])->name('tripleplay');
 Route::get('/neutral-host-infrastructure', [HomeController::class, 'neutralhost'])->name('neutralhost');
+=======
+Route::post('/send-email', [HomeController::class, 'sendEmail'])->name('sendEmail');
+>>>>>>> origin/master

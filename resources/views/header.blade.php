@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <a onclick="window.location='{{ route('about')}}'" class="nav-item nav-link text-white">About Us</a>
-                    <a class="nav-item nav-link text-white">Contact</a>
+                    <a href="#contact" class="nav-item nav-link text-white">Contact</a>
                 </div>
             </div>
         </div>
