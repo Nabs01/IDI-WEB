@@ -116,7 +116,10 @@ body {
     line-height: 1;
     cursor: pointer;
 }
+.text-white{
 
+	font-size: 1.3em;
+}
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
