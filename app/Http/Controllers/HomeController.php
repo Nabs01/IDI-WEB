@@ -27,12 +27,6 @@ class HomeController extends Controller
     {
         return view('product-internet-services');
     }
-<<<<<<< HEAD
-
-    public function vpn()
-    {
-        return view('product-vpn');
-    }
 
     public function manage()
     {
@@ -46,13 +40,9 @@ class HomeController extends Controller
 
     public function neutralhost()
     {
-        return view('product-neutral-host');
-=======
-    public function vpn()
-    {
-        return view('product-vpn-services');
+        return view('product-triple-service');
     }
-
+    
     public function sendEmail(Request $request){
         $this->validate($request, [
             'name'      =>  'required',
@@ -70,6 +60,5 @@ class HomeController extends Controller
       
         \Mail::to('hostidigital361@gmail.com')->send(new MAIL($details));
         return back()->with('message_sent','Your message has been sent successfully');
->>>>>>> origin/master
     }
 }
