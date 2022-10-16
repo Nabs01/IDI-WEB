@@ -54,10 +54,11 @@
 	<div class="col mb-3">
 		<h5>Product</h5>
 		<ul class="nav flex-column">
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Infrastructure & Neutral Internet Service</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">I PTVSolution</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">HotSpot WiFi</a></li>
-			<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Manage Service</a></li>
+			<li class="nav-item mb-2"><a href="{{ route('internet')}}" class="nav-link p-0 text-muted">Internet Service</a></li>
+			<li class="nav-item mb-2"><a href="{{ route('vpn')}}" class="nav-link p-0 text-muted">VPN Service</a></li>
+			<li class="nav-item mb-2"><a href="{{ route('neutralhost')}}" class="nav-link p-0 text-muted">Neutral Host Infrastructure</a></li>
+			<li class="nav-item mb-2"><a href="{{ route('manage')}}" class="nav-link p-0 text-muted">Manage Service</a></li>
+			<li class="nav-item mb-2"><a href="{{ route('tripleplay')}}" class="nav-link p-0 text-muted">Triple Play Service</a></li>
 		</ul>
 	</div>
 

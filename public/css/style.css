@@ -17,6 +17,7 @@ body {
     font-family: poppins;
 }
 
+
 /*-------------------------------------- Header ---------------------------------------  */
 
 .bg-nav {
@@ -94,7 +95,7 @@ body {
     padding-bottom: 5em !important
 }
 
-#visi-misi {
+#visi-misi,#internet-services{
 	padding-top: 5em !important;
     padding-bottom: 5em !important;
 }
@@ -122,16 +123,17 @@ body {
 }
 .btn-solid-lg {
 	display: inline-block;
-	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+	padding: 1.2em 2.2em 1.2em 2.2em;
 	border: 1px solid #194A9D;
 	border-radius: 32px;
-	background: linear-gradient(to right, #1799D5,#194A9D);
+	background: linear-gradient(to right, #1799D5,#447fe6);
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: all 0.2s;
+	margin-left: 10vh;
 }
 
 .btn-solid-lg:hover {
@@ -153,6 +155,7 @@ body {
 	text-decoration: none;
 	transition: all 0.2s;
 	filter: drop-shadow(95% #F3F6FF);
+	max-width: 100%;
 }
 
 .btn-solid-sm-more:hover {
@@ -160,6 +163,30 @@ body {
 	background-color: transparent;
 	color: #1799D5;
 	text-decoration: none;
+
+}
+
+.btn-send{
+	display: inline-block;
+	padding: 1.2em;
+	border: 1px solid #194A9D;
+	border-radius: 30px;
+	background-color: #194A9D;
+	color: #ffffff;
+	font-size: 0.875em;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+	filter: drop-shadow(95% #F3F6FF);
+	max-width: 100%;
+}
+
+.btn-send:hover {
+	border: 1px solid #1799D5;
+	background-color: transparent;
+	color: #1799D5;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .nav-dropdown-item:hover{
@@ -182,11 +209,10 @@ body {
 /* ======================================= Home Header ======================================= */
 
 
-
 .header-home {
 	height: 70vh;
-	min-height: 500px;
-	background-image: url('../images/Group 75.png');
+	min-height: 5vw;
+	background-image: url('../images/bg1.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -194,8 +220,8 @@ body {
 
 .home-title{
 	color: white;
-	font-family: bitter-regular;
-	font-size: 40px;
+	font-family: bitter-regular;	
+	font-size: 3vw;
 	font-weight:500;
 	padding-left: 10vh;
 }
@@ -265,13 +291,13 @@ body {
     background: rgba(23, 153, 213, 0.55);
 }
 
-#our-solutions .card-img-top{
+/* #our-solutions .card-img-top{ */
 	/* padding-top: 2vw;
 	padding-left: 5vw;
 	padding-right: 5vw;
 	padding-bottom: 2vw; */
-	padding: 3vw;
-}
+	/* padding: 3vw; */
+/* } */
 
 #our-solutions .card{
 	text-align: center;
@@ -301,8 +327,28 @@ body {
 
 
 .why-us-image{
-	padding: 5vw;
+	padding: 4vw;
 }
+
+.why-us-image img{
+	min-width: 6vw;
+	min-height: 10vh;
+}
+
+/* ========================================== Form Contact Us ==================================== */
+
+#contact {
+	padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    background: rgba(23, 153, 213, 0.55);
+}
+
+#gmap_canvas{
+	height: 20em;
+	width: 100%;
+}
+
+
 
 /* ======================================= About Us Header ======================================= */
 
@@ -407,7 +453,7 @@ body {
 .product-title{
 	color: white;
 	font-family: bitter-regular;
-	font-size: 3vw;
+	font-size: 5vh;
 	font-weight:500;
 }
 
@@ -416,3 +462,64 @@ body {
 	background-color: #1799D5;
 	white-space: normal;
 }
+
+.product-content{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10vh;
+}
+
+/* ======================================= Our Solutions ======================================= */
+
+.box{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.our-services{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 38vh;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
+}
+.our-services .icon{
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center;
+	color: #276ce2
+}
+.our-services:hover h4 ,.our-services:hover small{
+    color: #ffffff;
+}
+
+.our-solutions:hover{
+    box-shadow: 25px 0 25px 0 rgba(11, 17, 199, 0.05);
+    cursor: pointer;
+    background: rgb(66,231,247);
+	background: radial-gradient(circle, rgba(66,231,247,1) 0%, rgba(38,138,230,1) 100%);
+}
+
+#airbone-package{
+
+	padding-top: 5em !important;
+    padding-bottom: 5em !important;
+    background: rgba(251, 254, 255, 0.973);
+}
+
+
+/* .term-airbone ul {
+	list-style: none;
+  }
+  
+.term-airbone ul li:before {
+	content: "\2713";
+	height: 50%;
+	width: 50%;
+  } */

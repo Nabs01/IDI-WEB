@@ -44,7 +44,7 @@
   </header>
 
   @yield('content')
-
+  @include('contact-form')
   <footer id="footer">
     @include('footer')
   </footer>

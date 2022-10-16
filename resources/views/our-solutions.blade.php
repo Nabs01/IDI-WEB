@@ -1,44 +1,69 @@
 <section id="our-solutions" class="col-lg-12">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-sm-12 title-content">
-                <h2 class="title"><strong>Our Solutions</strong></h2>
-                {{-- <p class="text-justify" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p> --}}
+            <div class="col-md-12 col-sm-12 title-content">
+                <h2 class="title text-center text-white"><strong>Our Solutions</strong></h2>
+                {{-- <p class="text-justify text-white" style="text-align: left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim deserunt mollit anim id est laborum.</p> --}}
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-6 col-sm-12">
+        </div>
+        <div class="row">
+            <div class="container-fluid mb-5 col-md-12 col-sm-12">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 text-center">
-                        <div class="card" >
-                            <img class="card-img-top" src="{{ asset('/images/icons/infrastructure.png')}}" alt="Card image cap">
-                            <p class="card-text">Neutral Host Interface</p>
-                            <div class="card-title">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('internet')}}'">
+                                <div class="icon"> <i class="icofont-signal icofont-5x"></i> </div>
+                                <h4>Internet Services</h4>
+                                <small>We have several services related to Internet Services :</small>
+                                <br>
+                                <small>1. ID Elite </small>
+                                <br>
+                                <small>2. Airbone </small>
+                                <br>
+                                <small>3. Add-On Internet </small>
+                               
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 float-center">
-                        <div class="card" >
-                            <img class="card-img-top" src="{{ asset('/images/icons/idea.png')}}" alt="Card image cap">
-                            <p class="card-text">IPVT Solution</p>
-                            <div class="card-title">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('vpn')}}'">
+                                <div class="icon"> <i class="icofont-lock icofont-5x"></i> </div>
+                                <h4>VPN Services</h4>
+                                <small>We have several services related to VPN Services :</small>
+                                <br>
+                                <small>1. IP VPN </small>
+                                <br>
+                                <small>2. SDWAN </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('neutralhost')}}'">
+                                <div class="icon"> <i class="icofont-automation icofont-5x"></i></div>
+                                <h4>Neutral Host Infrastructure</h4>
+                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 text-center">
-                        <div class="card" >
-                            <img class="card-img-top" src="{{ asset('/images/icons/signal-tower.png')}}" alt="Card image cap">
-                            <p class="card-text">Hotspot WiFi</p>
-                            <div class="card-title">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('manage')}}'">
+                                <div class="icon"> <i class="icofont-server icofont-5x"></i> </div>
+                                <h4>Manage Service</h4>
+                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 float-center">
-                        <div class="card" >
-                            <img class="card-img-top" src="{{ asset('/images/icons/code.png')}}" alt="Card image cap">
-                            <p class="card-text">Manage Servie</p>
-                            <div class="card-title">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="our-services our-solutions" onclick="window.location='{{ route('tripleplay')}}'">
+                                <div class="icon"> <i class="icofont-wifi-alt icofont-5x"></i> </div>
+                                <h4>Triple Play Service</h4>
+                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
                             </div>
                         </div>
                     </div>

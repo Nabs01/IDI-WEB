@@ -21,4 +21,29 @@ class HomeController extends Controller
     {
         return view('product');
     }
+
+    public function internet()
+    {
+        return view('product-internet-services');
+    }
+
+    public function vpn()
+    {
+        return view('product-vpn');
+    }
+
+    public function manage()
+    {
+        return view('product-manage-service');
+    }
+
+    public function tripleplay()
+    {
+        return view('product-triple-service');
+    }
+
+    public function neutralhost()
+    {
+        return view('product-neutral-host');
+    }
 }
