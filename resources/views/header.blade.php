@@ -3,7 +3,7 @@
         <div class="container">
             <a  class="navbar-brand">
                 <img class="logo-image"  onclick="window.location='{{ route('home')}}'" src="{{ asset('/images/image 3.png')}}" height="33" alt="IDI Logo">
-                <small style="color: #ffffff;">INFRASTRUKTUR DIGITAL INDONESIA </small>
+                <small style="color: #ffffff; font-size: 1.5vh; ">INFRASTRUKTUR DIGITAL INDONESIA </small>
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>

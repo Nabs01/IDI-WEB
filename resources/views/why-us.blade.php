@@ -1,6 +1,6 @@
 <section id="why-us" class="col-lg-12">
     <div class="container">
-        <div class="col-lg-12 col-md-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
             <h2 style="color:black; text-align:center;"><strong>Why Us</strong></h2> 
             <div class="container">
                 <div class="row">

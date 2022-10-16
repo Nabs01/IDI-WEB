@@ -9,7 +9,7 @@
     <div class="about-us-container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-12 text-center">
-            <h3 class="about-us-title">VPN Services</h3>
+            <h3 class="product-title">VPN Services</h3>
             <hr>
           </div>
         </div>

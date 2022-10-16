@@ -206,11 +206,10 @@ body {
 /* ======================================= Home Header ======================================= */
 
 
-
 .header-home {
 	height: 70vh;
-	min-height: 500px;
-	background-image: url('../images/Group 75.png');
+	min-height: 5vw;
+	background-image: url('../images/bg1.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -218,8 +217,8 @@ body {
 
 .home-title{
 	color: white;
-	font-family: bitter-regular;
-	font-size: 40px;
+	font-family: bitter-regular;	
+	font-size: 3vw;
 	font-weight:500;
 	padding-left: 10vh;
 }
@@ -451,7 +450,7 @@ body {
 .product-title{
 	color: white;
 	font-family: bitter-regular;
-	font-size: 3vw;
+	font-size: 5vh;
 	font-weight:500;
 }
 
@@ -459,6 +458,13 @@ body {
 	color: white;
 	background-color: #1799D5;
 	white-space: normal;
+}
+
+.product-content{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10vh;
 }
 
 /* ======================================= Our Solutions ======================================= */
@@ -503,6 +509,7 @@ body {
     padding-bottom: 5em !important;
     background: rgba(251, 254, 255, 0.973);
 }
+
 
 /* .term-airbone ul {
 	list-style: none;

@@ -2,8 +2,19 @@
     <div class="home-head-container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-lg-12 text-left">
-            <h3 class="home-title">Welcome to <br> PT. INFRASTRUKTUR DIGITAL INDONESIA</h3>
-            <button type="button" class="btn-solid-lg" onClick="location.href='#our-solutions'">Lihat Lebih</button>
+            <div class="row">
+                <div class="col-8">
+                    br
+                    <h3 class="home-title">Welcome to</h3>
+                    <h3 class="home-title">PT. INFRASTRUKTUR DIGITAL</h3>
+                    <h3 class="home-title">INDONESIA</h3>
+                    {{-- <button type="button" class="btn-solid-lg" onClick="location.href='#our-solutions'">Lihat Lebih</button> --}}
+                </div>
+                <div class="col-2 ">
+                    <img src="{{ asset('/images/info_speed.png')}}" class="img-fluid"  loading="lazy" alt="Bluehost logo">
+                </div>
+
+            </div>
         </div>
       </div>
 </header> 
@@ -21,11 +32,13 @@
 </section>
  
 <section class id="our-clients">
-    <div class="col-lg-12 col-md-12">
+    <div class="col-lg-12 col-md-12 col-sm-12">
         <h2 style="color:black; text-align:center;"><strong>Our Client</strong></h2> 
-        <div class="container">
-            <div class="col-12 text-center">
-                <img src="{{ asset('/images/client/clientall.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+        <div class="container our-clients-img">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <img src="{{ asset('/images/client/clientall.png')}}" class="img-fluid" loading="lazy" alt="Bluehost logo">
+                </div>
             </div>
         </div>
     </div>

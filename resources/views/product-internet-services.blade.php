@@ -9,7 +9,7 @@
     <div class="about-us-container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-12 text-center">
-            <h3 class="about-us-title">Internet Services Products</h3>
+            <h3 class="product-title">Internet Services Products</h3>
             <hr>
           </div>
         </div>
@@ -22,9 +22,9 @@
             <div class="col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out-up" data-aos-duration="5000">
                 <img src="{{ asset('/images/icons/illustration-for-5g-router-and-technology-to-increase-network-speed-wifi-internet-connection-stability-design-can-be-used-for-landing-page-template-ui-ux-web-website-banner-flyer-free-vector.jpg')}}" width="100%" alt="Pt. Infrastructure Digital Indonesia Vision and Mision" loading="lazy"/>
             </div>
-            <div class="col-lg-1"></div>
+            <div class="col-lg-1 col-md-1 col-sm-12"></div>
             <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
-                <div class="row about-us-content">
+                <div class="row product-content">
                     <h3><strong>ID Elite </strong></h3>
                     <p>ID Elite is a premium product owned by IDI, in the form of fast and smooth 24-hour internet access services using fiber optic and wireless, internet services with a high level of availability, using multiple upstreams that can back-up each other, services NOC 24x7 Hours, so that it can support business/corporate success.</p>
                     <div >
