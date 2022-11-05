@@ -11,25 +11,24 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="box">
-                            <div class="our-services our-solutions" onclick="window.location='{{ route('internet')}}'">
+                            <div class="our-product our-solutions" onclick="window.location='{{ route('internet')}}'">
                                 <div class="icon"> <i class="icofont-signal icofont-5x"></i> </div>
-                                <h4>Internet Services</h4>
-                                <small>We have several services related to Internet Services :</small>
+                                    <h4>Internet Services</h4>
+                                    <small>We have several services related to Internet Services :</small>
                                 <br>
-                                <small>1. ID Elite </small>
+                                    <small>1. ID Elite </small>
                                 <br>
-                                <small>2. Airbone </small>
+                                    <small>2. Airbone </small>
                                 <br>
-                                <small>3. Add-On Internet </small>
+                                    <small>3. Add-On Internet </small>
                                 <br>
-                                <small>4. Triple Play Services </small>
-                               
+                                    <small>4. Triple Play Services </small>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="box">
-                            <div class="our-services our-solutions" onclick="window.location='{{ route('vpn')}}'">
+                            <div class="our-product our-solutions" onclick="window.location='{{ route('vpn')}}'">
                                 <div class="icon"> <i class="icofont-lock icofont-5x"></i> </div>
                                 <h4>VPN Services</h4>
                                 <small>We have several services related to VPN Services:</small>
@@ -37,35 +36,6 @@
                                 <small>1. IP VPN </small>
                                 <br>
                                 <small>2. SDWAN </small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="box">
-                            <div class="our-services our-solutions" onclick="window.location='{{ route('neutralhost')}}'">
-                                <div class="icon"> <i class="icofont-automation icofont-5x"></i></div>
-                                <h4>Neutral Host Infrastructure</h4>
-                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-md-4">
-                        <div class="box">
-                            <div class="our-services our-solutions" onclick="window.location='{{ route('manage')}}'">
-                                <div class="icon"> <i class="icofont-server icofont-5x"></i> </div>
-                                <h4>Manage Service</h4>
-                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="box">
-                            <div class="our-services our-solutions" onclick="window.location='{{ route('tripleplay')}}'">
-                                <div class="icon"> <i class="icofont-wifi-alt icofont-5x"></i> </div>
-                                <h4>Triple Play Service</h4>
-                                {{-- <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit</small> --}}
                             </div>
                         </div>
                     </div>

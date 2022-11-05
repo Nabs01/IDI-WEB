@@ -495,10 +495,32 @@ body {
 
 .box{
     position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.box-oursolutions{
+    position: relative;
     width: 110%;
     padding-right: 15px;
     padding-left: 15px
 }
+
+
+.our-product{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0px 60px;
+    min-height: 45vh;
+    text-align: center;
+    border-radius: 10px;
+    /* background-color: #fff; */
+	background-image: url('../images/bluee.jpg');
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
+}
+
 .our-services{
     margin-top: 75px;
     padding-bottom: 30px;
@@ -511,6 +533,7 @@ body {
     transition: all .4s ease-in-out;
     box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
 }
+
 .our-services .icon{
     margin-bottom: -21px;
     transform: translateY(-50%);
