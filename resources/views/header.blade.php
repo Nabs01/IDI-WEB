@@ -3,7 +3,7 @@
         <div class="container">
             <a  class="navbar-brand">
                 <img class="logo-image"  onclick="window.location='{{ route('home')}}'" src="{{ asset('/images/image 3.png')}}" height="33" alt="IDI Logo">
-                <small style="color: #ffffff; font-size: 1.5vh; ">INFRASTRUKTUR DIGITAL INDONESIA </small>
+                <small style="color: #ffffff; font-size: 1em; ">INFRASTRUKTUR DIGITAL INDONESIA </small>
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -16,9 +16,9 @@
                         <div class="dropdown-menu">
                             <a href="#" onclick="window.location='{{ route('internet')}}'"   class="nav-dropdown-item dropdown-item ">Internet Service</a>
                             <a href="#" onclick="window.location='{{ route('vpn')}}'"  class="nav-dropdown-item dropdown-item ">VPN Service</a>
-                            <a href="#" onclick="window.location='{{ route('neutralhost')}}'"   class="nav-dropdown-item dropdown-item ">Neutral Host Infrastructure</a>
-                            <a href="#" onclick="window.location='{{ route('manage')}}'"   class="nav-dropdown-item dropdown-item ">Manage Service</a>
-                            <a href="#" onclick="window.location='{{ route('tripleplay')}}'"  class="nav-dropdown-item dropdown-item ">Triple Play Service</a>
+                            <!-- <a href="#" onclick="window.location='{{ route('neutralhost')}}'"   class="nav-dropdown-item dropdown-item ">Neutral Host Infrastructure</a> -->
+                            <!-- <a href="#" onclick="window.location='{{ route('manage')}}'"   class="nav-dropdown-item dropdown-item ">Manage Service</a> -->
+                            <!-- <a href="#" onclick="window.location='{{ route('tripleplay')}}'"  class="nav-dropdown-item dropdown-item ">Triple Play Service</a> -->
                             
                         </div>
                     </div>

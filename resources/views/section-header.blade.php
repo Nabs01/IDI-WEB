@@ -4,7 +4,6 @@
           <div class="col-lg-12 text-left">
             <div class="row">
                 <div class="col-8">
-                    br
                     <h3 class="home-title">Welcome to</h3>
                     <h3 class="home-title">PT. INFRASTRUKTUR DIGITAL</h3>
                     <h3 class="home-title">INDONESIA</h3>
@@ -23,8 +22,8 @@
     <div class="col-lg-9 col-md-9 col-sm-9 card shadow-lg p-4" >
         <div class="card-body">
             <div class="container">
-                <h4 class="text-left title">Pt. Infrstruktur Digital Indonesia</h4>
-                <p class="card-subtitle mt-3 text-muted"> PT Infrastructure Digital Indonesia (IDI) is a company engaged in infrastructure development and the provision of information and communication technology/ICT (Information Communication and Technology/ICT) services. with the concept of Neutral ICT Infrastructure, namely the concept of infrastructure as a services.</p>
+                <h4 class="text-left title">PT. Infrstruktur Digital Indonesia</h4>
+                <p class="card-subtitle mt-3 text-muted"> PT Infrastruktur Digital Indonesia (IDI) is a company engaged in infrastructure development and the provision of information and communication technology/ICT (Information Communication and Technology/ICT) services. with the concept of Neutral ICT Infrastructure, namely the concept of infrastructure as a services.</p>
                 <button onclick="window.location='{{ route('about')}}'" type="button" class="btn-solid-sm-more float-end"> Read more <i class="icofont-arrow-right"></i></button>
             </div>
         </div>

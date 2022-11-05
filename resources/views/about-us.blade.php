@@ -17,7 +17,7 @@
                   <div class="col-1">
                   </div>
                   <div class="col-10">
-                        <p class="about-us-subtitle"> PT Infrastructure Digital Indonesia (IDI) is a company engaged in infrastructure development and the provision of information and communication technology/ICT (Information Communication and Technology/ICT) services. with the concept of Neutral ICT Infrastructure, namely the concept of infrastructure as a services.</p>
+                        <p class="about-us-subtitle"> PT Infrastrukur Digital Indonesia (IDI) is a company engaged in infrastructure development and the provision of information and communication technology/ICT (Information Communication and Technology/ICT) services. with the concept of Neutral ICT Infrastructure, namely the concept of infrastructure as a services.</p>
                   </div>
                   <div class="col-1">
                   </div>

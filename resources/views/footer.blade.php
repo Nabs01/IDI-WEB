@@ -5,7 +5,7 @@
 			<div class="row">
 				<a  onclick="window.location='{{ route('home')}}'" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
 					<img class="logo-image"  src="{{ asset('/images/IDI_LOGO_footer-0-1.png')}}" height="25" alt="IDI Logo">
-					<span class="text-muted">&nbsp; Pt. Infrstruktur Digital Indonesia</span>
+					<span class="text-muted">&nbsp; PT. Infrstruktur Digital Indonesia</span>
 				</a>
 			</div>
 			<div class="row">
@@ -29,7 +29,7 @@
 					<i class="icofont-email icofont-1x"></i> 
 				</div>
 				<div class="col">
-					<span>cx@infrastructur-digital.id</span>
+					<span>cx@infrastruktur-digital.id</span>
 				</div>
 			</div>
 			<div class="row">
@@ -56,9 +56,9 @@
 		<ul class="nav flex-column">
 			<li class="nav-item mb-2"><a href="{{ route('internet')}}" class="nav-link p-0 text-muted">Internet Service</a></li>
 			<li class="nav-item mb-2"><a href="{{ route('vpn')}}" class="nav-link p-0 text-muted">VPN Service</a></li>
-			<li class="nav-item mb-2"><a href="{{ route('neutralhost')}}" class="nav-link p-0 text-muted">Neutral Host Infrastructure</a></li>
-			<li class="nav-item mb-2"><a href="{{ route('manage')}}" class="nav-link p-0 text-muted">Manage Service</a></li>
-			<li class="nav-item mb-2"><a href="{{ route('tripleplay')}}" class="nav-link p-0 text-muted">Triple Play Service</a></li>
+			<!-- <li class="nav-item mb-2"><a href="{{ route('neutralhost')}}" class="nav-link p-0 text-muted">Neutral Host Infrastructure</a></li> -->
+			<!-- <li class="nav-item mb-2"><a href="{{ route('manage')}}" class="nav-link p-0 text-muted">Manage Service</a></li> -->
+			<!-- <li class="nav-item mb-2"><a href="{{ route('tripleplay')}}" class="nav-link p-0 text-muted">Triple Play Service</a></li> -->
 		</ul>
 	</div>
 

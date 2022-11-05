@@ -31,13 +31,13 @@
                     <div >
                         <div class="row about-us-content">
                             <p> Why choose SD-WAN? :</p>
-                            <ol class="ml-3">
+                            <ul class="ml-3">
                                 <li><p class="text-justify"> Increased bandwidth at a lower cost.</p> </li>
                                 <li><p class="text-justify"> Centralized management across the branch network. </p></li>  
                                 <li><p class="text-justify"> Full visibility into the network. </p></li>  
                                 <li><p class="text-justify"> Manage traffic allocation in each branch according to their respective needs </p></li>  
-                                <li><p class="text-justify">Gives organizations more connection type and vendor selection (ISP/NAP) options when building a network. </p></li>  
-                            </ol>
+                                <li><p class="text-justify"> Gives organizations more connection type and vendor selection (ISP/NAP) options when building a network. </p></li>  
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
             <div class="col-lg-7 col-md-6 col-sm-12" data-aos="zoom-out-left" data-aos-duration="5000">
                 <div class="row about-us-content">
                     <h3><strong>IP VPN</strong></h3>
-                    <p>IP VPN is .</p>
+                    <p>IP VPN VPN IP is an any to any connection data communication service based on IP Multi Protocol Label Switching.</p>
                     <div >
                         <div class="row about-us-content">
                             <div class="row"> 

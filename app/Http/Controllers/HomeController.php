@@ -32,6 +32,11 @@ class HomeController extends Controller
     {
         return view('product-manage-service');
     }
+    
+    public function vpn()
+    {
+        return view('product-vpn-services');
+    }
 
     public function tripleplay()
     {
@@ -40,7 +45,7 @@ class HomeController extends Controller
 
     public function neutralhost()
     {
-        return view('product-triple-service');
+        return view('product-neutral-host');
     }
     
     public function sendEmail(Request $request){

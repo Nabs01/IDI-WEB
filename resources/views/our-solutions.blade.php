@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row"> 
                     <div class="col-md-4">
                         <div class="box">
                             <div class="our-services our-solutions" onclick="window.location='{{ route('manage')}}'">
