@@ -234,9 +234,9 @@ body {
 .home-title{
 	color: white;
 	font-family: bitter-regular;	
-	font-size: 3vw;
+	font-size: 35px;
 	font-weight:500;
-	padding-left: 10vh;
+	text-align: left;
 }
 
 .home-head-container {

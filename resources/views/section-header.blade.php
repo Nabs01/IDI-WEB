@@ -3,16 +3,19 @@
         <div class="row h-100 align-items-center">
           <div class="col-lg-12 text-left">
             <div class="row">
-                <div class="col-8">
+                <div class="col-lg-1 col-md-1 col-sm-12">
+                    <br>
+                    <br>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
                     <h3 class="home-title">Welcome to</h3>
                     <h3 class="home-title">PT. INFRASTRUKTUR DIGITAL</h3>
                     <h3 class="home-title">INDONESIA</h3>
                     {{-- <button type="button" class="btn-solid-lg" onClick="location.href='#our-solutions'">Lihat Lebih</button> --}}
                 </div>
-                <div class="col-2 ">
-                    <img src="{{ asset('/images/info_speed.png')}}" class="img-fluid"  loading="lazy" alt="Bluehost logo">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="{{ asset('/images/info_speed.png')}}" class="img-fluid" style="height: 70%; padding-left: 10vh" loading="lazy" alt="Bluehost logo">
                 </div>
-
             </div>
         </div>
       </div>
