@@ -13,7 +13,7 @@
                     <h3 class="home-title">INDONESIA</h3>
                     {{-- <button type="button" class="btn-solid-lg" onClick="location.href='#our-solutions'">Lihat Lebih</button> --}}
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-6">
                     <img src="{{ asset('/images/info_speed.png')}}" class="img-fluid" style="height: 70%; padding-left: 10vh" loading="lazy" alt="Bluehost logo">
                 </div>
             </div>
